@@ -1,0 +1,32 @@
+[
+	{
+		"objectID": "eoLKUnitCvsn_KG_TO_GR",
+		"classID": "EOLKUnitConversion",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "KG_TO_GR",
+			"baseQnt":1,
+			"rptQnt":.0001
+		},
+		"relationship":{
+		   "eoBaseUnit":"eoLKUnit_GR",
+		   "eoRptUnit":"eoLKUnit_KG"
+		}
+	},
+	{
+		"objectID": "eoLKUnitCvsn_GR_TO_KG",
+		"classID": "EOLKUnitConversion",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "GR_TO_KG",
+			"baseQnt":1000,
+			"rptQnt":1
+		},
+		"relationship":{
+		   "eoBaseUnit":"eoLKUnit_GR",
+		   "eoRptUnit":"eoLKUnit_KG"
+		}
+	}
+]

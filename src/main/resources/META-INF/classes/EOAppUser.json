@@ -1,0 +1,62 @@
+[
+  {
+    "classID": "EOAddress",
+    "classPath": "org.brijframework.lookup.EOAddress",
+    "typeID": "EOCLASS",
+    "properties": [
+      "addressID",
+      "landMark"
+    ],
+    "relationship": [
+      "addressID",
+      "landMark"
+    ]
+  },
+  {
+    "classID": "EORole",
+    "classPath": "org.brijframework.hr.EORole",
+    "typeID": "EOCLASS",
+    "properties": [
+      "roleName",
+      "roleID"
+    ]
+  },
+  {
+    "classID": "EOUser",
+    "classPath": "org.brijframework.hr.EOUser",
+    "typeID": "EOCLASS",
+    "properties": [
+      "username",
+      "password",
+      "rememberme"
+    ],
+    "relationship": [
+      "eoRole"
+    ]
+  },
+  {
+    "classID": "EOUserInfo",
+    "classPath": "org.brijframework.hr.EOUserInfo",
+    "typeID": "EOCLASS",
+    "properties": [
+      "userID",
+      "firstName",
+      "lastName",
+      "midName",
+      "gender",
+      "dob",
+      "age"
+    ]
+  },
+  {
+    "classID": "EOUserDetail",
+    "classPath": "org.brijframework.hr.EOUserDetail",
+    "typeID": "EOCLASS",
+    "properties": [
+      "userID",
+      "isOwener",
+      "isRemember",
+      "isTeam"
+    ]
+  }
+]

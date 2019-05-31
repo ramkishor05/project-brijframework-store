@@ -1,0 +1,310 @@
+.zrpt_box_content {
+	background-color: #ffffff;
+	padding:0px;
+	margin: 0px;
+}
+
+.zrpt_box_content .schedule_sumry_wrapper {
+	padding: 0px;
+	background-color: #FBFBFB;
+	float: left;
+	width: 100%;
+}
+
+.zrpt_box_content .header_wrap {
+	background-color: #fff;
+	border-bottom: 1px solid #f3f3f3;
+	border-radius: 4px 4px 0 0;
+	color: #7f7f7f;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px 0 0;
+	padding: 8px 15px;
+	position: relative;
+}
+.no-padding{
+	padding:0px;
+}
+.no-margin{
+	margin: 0px;
+}
+.zrpt_box_content .header_wrap .seperator_sky {
+	border-bottom: 1px solid #5cccfc;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	width: 12%;
+	background-color: #fff;
+	border-bottom: 1px solid #f3f3f3;
+	border-radius: 4px 4px 0 0;
+	color: #7f7f7f;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px 0 0;
+	padding: 8px 15px;
+}
+
+.zrpt_box_content .rounded_green_btn {
+	background-color: #61c390;
+	border-radius: 40px;
+	color: #fff;
+	padding: 0px 0px;
+	margin: 0;
+}
+
+.zrpt_box_content .rounded_green_btn:hover {
+	background-color: #40a26f;
+}
+
+.zrpt_box_content .site_reports_wrapper {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 2px;
+}
+
+.zrpt_box_content .site_reports_wrapper .reports-Data h5 {
+	margin: 0;
+	color: #555557;
+}
+
+.zrpt_action{
+	margin: 0;
+	right: 0;
+	color: #555557;
+}
+.zrpt_box_content .site_reports_wrapper .reports-Data p {
+	color: #9e9e9e;
+	margin: 0;
+}
+
+#setting_app_notif .tooltip-arrow {
+	border-right-color: #d3d3d3 !important;
+}
+
+#setting_app_notif .tooltip-inner {
+	background-color: #fff !important;
+	color: #777 !important;
+	text-align: left !important;
+	max-width: 250px;
+	border: 2px solid #f2f2f2 !important;
+	border-radius: 4px !important;
+}
+/*   category_setting*/
+.category_wrap {
+    border-radius: 4px;
+    background-color: #F9FAFC;
+    color: #777;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    float: left;
+    min-height: 105px;
+}
+.category_wrap.active {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+.category_wrap h5 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.category_wrap p {
+    margin: 0;
+    font-size: 13px;
+}
+.category_wrap .input_text {
+    padding: 5px 15px;
+    border-radius: 40px;
+    height: auto;
+    text-align: center;
+    margin: 10px 0;
+}
+.category_wrap .select2-container .select2-choice {
+    background-color: #fff !important;
+    padding: 3px 15px;
+    border-radius: 40px;
+    height: auto;
+}
+.category_wrap .checkbox-custom-wrap {
+    position: absolute;
+    right: 50%;
+    bottom: -18px;
+}
+.category_wrap .checkbox-custom,
+.category_wrap .radio-custom {
+    opacity: 0;
+    position: absolute;
+}
+.category_wrap input[type=checkbox],
+input[type=radio] {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+.category_wrap .checkbox-custom,
+.category_wrap .checkbox-custom-label,
+.category_wrap .radio-custom,
+.category_wrap .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+.category_wrap .checkbox-custom-label,
+.category_wrap .radio-custom-label {
+    position: relative;
+}
+.category_wrap .checkbox-custom + .checkbox-custom-label:before,
+.category_wrap .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #f1f1f1;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    text-align: center;
+}
+.category_wrap .checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background: rebeccapurple;
+    color: #fff;
+}
+.category_wrap .radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+.category_wrap .radio-custom:checked + .radio-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #fff;
+    background-color: #48CD8C;
+}
+.category_wrap .checkbox-custom:focus,
+.category_wrap .checkbox-custom-label:focus,
+.category_wrap .radio-custom:focus,
+.category_wrap .radio-custom-label:focus {
+    outline: none !important;
+}
+
+/*   ingr update modal*/
+
+.adminUserBlock {
+	height: 200px;
+	display: inline-block;
+	border-radius: 40px;
+	background-color: #b3d9ff;
+	padding: 20%;
+}
+
+.adminUserBlock label {
+	font-size: 20px;
+	text-align: center;
+}
+
+.ajax-search-drop {
+	background-color: #fbfbfb;
+	border-color: #d5d5d5;
+	border-image: none;
+	border-radius: 0 0 4px 4px;
+	border-style: none solid solid;
+	border-width: 0 1px 1px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 2px #888;
+	color: #444;
+	margin-top: 0;
+	position: absolute;
+	text-decoration: none;
+	top: 100%;
+	white-space: nowrap;
+	z-index: 1 !important;
+}
+
+.ajax-search-drop-inactive {
+	display: none;
+}
+
+.ajax-search-drop-active {
+	display: block;
+}
+
+.ajax-search-no-result {
+	float: left;
+	margin: 0;
+	padding: 10px 0px 8px;
+}
+
+.ajax-search-results li {
+	display: list-item;
+	list-style: outside none none;
+}
+
+.ajax-search-results {
+	list-style-type: none;
+	max-height: 200px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0;
+}
+
+.ajax-search-result {
+	background-clip: padding-box;
+	border-bottom: 1px solid #efefef;
+	margin: 0 -5px;
+	position: relative;
+	text-align: left;
+	top: 100%;
+}
+
+.ajax-search-results .ajax-search-result-lbl {
+	cursor: pointer;
+	margin: 0;
+	padding: 10px 0px 8px;
+}
+
+.ajax-search-result:hover {
+	background: none repeat scroll 0 0 #3875d7;
+	color: #fff;
+}
+
+.text-shadow-none {
+	text-shadow: none !important;
+}
+
+.left-top-radius-5 {
+	border-top-left-radius: 4px !important;
+}
+
+.border-top-right-radius {
+	border-top-right-radius: 4px !important;
+}
+
+.ajax-search-txt-drop-inactive {
+	border-radius: 0 !important;
+}
+
+.ajax-search-txt-drop-active {
+	bborder-radius: 4px 4px 0 0 !important;
+	box-shadow: 0 0 2px #888 !important;
+	border-bottom: none !important;
+}
+
+.ajax-search .ajax-search-txt-drop-inactive input[type="search"]:focus {
+	box-shadow: 0 0 1px #999999 !important;
+}
+
+.ajax-search .ajax-search-txt-drop-active input[type="search"]:focus {
+	box-shadow: none !important;
+}
+
+.ajax-search-input {
+	border: 1px solid #d5d5d5;
+}
+
+.img-circle {
+	height: 130px;
+	width: 130px;
+}

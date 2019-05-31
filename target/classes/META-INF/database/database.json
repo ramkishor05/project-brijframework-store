@@ -1,0 +1,33 @@
+[
+	{
+	    "id":"postgresql",
+		"url": "jdbc:postgresql://localhost:5432/",
+		"name": "Postgre Data Base",
+		"vendor": "postgresql",
+		"Username": "postgres",
+		"Password": "admin",
+		"driver": "org.postgresql.Driver",
+		"dialect": "org.hibernate.dialect.PostgreSQLDialect",
+		"networkID":"Postgreslocalhost",
+		"schemaIDArray":[
+		 "postgres_store"
+		]
+	},
+	{
+	    "id":"mysql",
+		"hostName": "localhost",
+		"hostAddress": "127.0.0.1",
+		"url": "jdbc:mysql://localhost:3306/",
+		"port": 3306,
+		"name": "mysql Data Base",
+		"vendor": "mysql",
+		"Username": "root",
+		"Password": "root",
+		"driver": "com.mysql.jdbc.Driver",
+		"dialect": "org.hibernate.dialect.MySQL5Dialect",
+		"networkID":"MySqllocalhost",
+		"schemaIDArray":[
+		  "mysql_store"
+		]
+	}
+]

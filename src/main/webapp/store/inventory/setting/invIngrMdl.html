@@ -1,0 +1,170 @@
+<style>
+.modal-body {
+	overflow-y: hidden;
+	max-height: 400px;
+}
+
+.modal {
+	margin: 0px;
+	padding: 0px
+}
+
+.modal-dialog {
+	margin: 5% auto;
+}
+
+.modal-header {
+	margin: 0px;
+	padding: 0px
+}
+
+.padding-10 {
+	padding: 10px
+}
+
+.margin-10 {
+	padding: 10px
+}
+</style>
+
+<div class="modal-header state modal-primary no-padding no-margin">
+	<button type="button" class="close" aria-label="Close"
+		ng-click="cancel()">
+		<span aria-hidden="true">&times;</span>
+	</button>
+	<h4 class="modal-title" id="modal-success-label">
+		<i class="fa fa-check"></i>Ingredient
+	</h4>
+</div>
+<div class="modal-body no-padding no-margin" id="modal-body"
+	style="margin-top: -2px">
+	<div class="col-md-3"
+		style="height: 383px; background-color: gray; color: white;">
+		<ui class="nav tabs-left">
+		<li id="GENERAL_INFO_TAB" ng-click="activeTab('GENERAL_INFO_TAB')"
+			class="margin-10 padding-10">General Information</li>
+		<li id="MEASUREMENT_TAB" ng-click="activeTab('MEASUREMENT_TAB')"
+			class="margin-10 padding-10">Measurement</li>
+		<li id="STORAGE_INFO_TAB" ng-click="activeTab('STORAGE_INFO_TAB')"
+			class="margin-10 padding-10">Storage Information</li>
+		<li id="VENTOR_INFO_TAB" ng-click="activeTab('VENTOR_INFO_TAB')"
+			class="margin-10 padding-10">Supplier Item</li>
+		<li id="RECIPE_INFO_TAB" ng-click="activeTab('RECIPE_INFO_TAB')"
+			class="margin-10 padding-10">Used Recipe</li>
+		</ui>
+	</div>
+	<div class="col-md-8 margin-10">
+		<div class="tab" id="GENERAL_INFO_TAB" ng-if="tab.GENERAL_INFO_TAB">
+			<div class="row padding-10">
+				<div class="col-md-6">
+					<input type="text" class="form-control" placeholder="Enter ID"
+						ng-model="dataObject['idenNo']">
+				</div>
+				<div class="col-md-6">
+					<input type="text" class="form-control" placeholder="Enter ID"
+						ng-model="dataObject['name']">
+				</div>
+			</div>
+			<div class="row padding-10">
+				<div class="col-md-6">
+					<input type="text" class="form-control"
+						placeholder="Enter description"
+						ng-model="dataObject['description']">
+				</div>
+				<div class="col-md-6">
+					<select ui-select2="" ng-model="dataObject.eoCategory"
+						class="form-control">
+						<option value="null">Select category</option>
+						<option ng-repeat="category in modelObject.categoryList"
+							value="{{category.uniqueID}}">{{category.name}}--{{category.uniqueID}}</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="tab" id="MEASUREMENT_TAB" ng-if="tab.MEASUREMENT_TAB">
+			<div class="row padding-10">
+				<div class="col-md-6">
+					<select ui-select2="" ng-model="seleted.unitGroup" class="form-control" ng-change="changeUnitGroup(seleted.unitGroup)">
+						<option value="0">Select Group unit</option>
+						<option ng-repeat="unitGroup in modelObject.unitGroupList"
+							value="{{unitGroup.uniqueID}}">{{unitGroup.friendlyName}}</option>
+					</select>
+				</div>
+				<div class="col-md-6">
+					<input ng-model="unitGroup.typeID">
+				</div>
+			</div>
+			<div class="row padding-10">
+				<div class="col-md-6">
+					<select ui-select2="" ng-model="dataObject['eoBaseUnit']" 
+						class="form-control">
+						<option value="0">Select base unit</option>
+						<option ng-repeat="unit in unitGroup.unitList"
+							value="{{unit.uniqueID}}">{{unit.friendlyName}}</option>
+					</select>
+				</div>
+				<div class="col-md-6">
+					<select ui-select2="" ng-model="dataObject['eoRptUnit']"
+						class="form-control">
+						<option value="0">Select Rpt unit</option>
+						<option ng-repeat="unit in unitGroup.unitList"
+							value="{{unit.uniqueID}}">{{unit.friendlyName}}</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="tab" id="STORAGE_INFO_TAB" ng-if="tab.STORAGE_INFO_TAB">
+			<div class="row padding-10">
+				<div class="col-md-6">
+					<select ui-select2="" ng-model="seleted.storage" ng-change="changeStorage(seleted.storage)"
+					    class="form-control">
+						<option value="0">Select storage</option>
+						<option ng-repeat="storage in modelObject.storageList"
+							value="{{storage.uniqueID}}">{{storage.name}}--{{storage.uniqueID}}</option>
+					</select>
+				</div>
+				<div class="col-md-6">
+					<select ui-select2="" ng-model="seleted.location" ng-change="addLocation(seleted.location)"
+						class="form-control">
+						<option value="0">Select location</option>
+						<option ng-repeat="location in storage.locationList"
+							value="{{location.uniqueID}}">{{location.name}}--{{location.uniqueID}}</option>
+					</select>
+				</div>
+			</div>
+			<div class="row padding-10">
+				<div class="col-md-6">
+					
+				</div>
+				<div class="col-md-6">
+					<div ng-repeat="eoIngrLoc in dataObject.eoIngrLocationArray">
+					   {{eoIngrLoc.name}}
+					</div>
+				</div>
+			</div>
+			<div class="row padding-10">
+				<div class="col-md-12">
+
+					<div class="col-md-3"
+						ng-repeat="cntFreq in modelObject.countFreqList | orderBy:'displayOrder'">
+						<div class="category_wrap" ng-class="{'active':cntFreq.isActive}">
+							<h5 translate="" class="padding-top-20 font-20">
+								<span>{{cntFreq.name}}</span>
+							</h5>
+							<div class="checkbox-custom-wrap">
+								<input class="radio-custom" value="ONE_TIME" type="checkbox"
+									ng-model="cntFreq.isActive"
+									ng-init="isEdit(cntFreq,'isActive')"> <label
+									class="radio-custom-label"> </label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+	<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

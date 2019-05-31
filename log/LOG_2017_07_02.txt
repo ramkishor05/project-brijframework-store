@@ -1,0 +1,30 @@
+
+************************************************************
+		Sun Jul 02 14:32:18 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old

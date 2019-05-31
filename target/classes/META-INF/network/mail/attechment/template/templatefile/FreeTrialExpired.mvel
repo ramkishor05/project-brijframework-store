@@ -1,0 +1,38 @@
+<style>
+table {border-collapse: collapse;border: 1px solid black;}
+td, th {border-collapse: collapse; border: 0px;}
+p{
+   margin-left: 10px;margin-right: 10px;padding-left: 10px
+}
+</style>
+<table class="table table-responsive"  style = "padding-top: 0px;margin-left: 150px;padding-left: 20px;border: 2px solid #3498DB;width:450px;border-top-width: 1px">
+ 	 <tr>
+	     <td colspan="2">
+	       <img alt="" src="@{custDetail.get('appLogo')}">
+	     </td>
+     </tr>
+     <tr>
+      <td colspan="2">
+        <p>
+        Hi @{custDetail.get('firstName')},
+       <p> <b> Your free trail of @{custDetail.get('appName')} has expired. </b>    
+		</p>
+		<p>
+		If you change your mind, we will save your data for one month. After that, the data of your trial site will be deleted.
+		</p>
+		<p>
+		You will still have an account with Hubworks. Your other trials and subscriptions will not be affected.
+		</p>
+		<p>
+		<b>
+			If you decide to sign up, you can use the following coupon code to get 10% off.
+			<center>Trail 10 Percent</center>
+		</b>
+		</p>
+		<p>
+		Please let me know if there is any reason you are hesitating (like a feature you are looking for or a price discount that would make a difference). 
+         </p>
+	</td>  
+	</tr>
+	
+ </table>

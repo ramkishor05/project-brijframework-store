@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes>
+	<class classID="EOAddress" classPath="org.brijframework.modal.base.EOAddress"
+		typeID="EOCLASS" isSingleton="true" isPrototype="false">
+		
+	</class>
+	
+	<class classID="EOEmployee" classPath="org.brijframework.modal.base.EOEmployee"
+		typeID="EOCLASS" isSingleton="true" isPrototype="false">
+		  <properties>
+			<property key="addressID" val="1"></property>
+			<property key="landMark" val="noida"></property>
+		</properties>
+	</class>
+</classes>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<beans>
+	<bean objectID="eoAddressBean" classID="EOAddress" typeID="EOBEAN">
+		<properties>
+		    <addressID>1</addressID> 
+			<landMark>noida</landMark>
+		</properties>
+	</bean>
+	
+	<bean objectID="eoAddress" classID="EOAddress" typeID="EOBEAN">
+		<properties>
+			<addressID>1</addressID> 
+			<landMark>noida</landMark>
+		</properties>
+	</bean>
+</beans>	

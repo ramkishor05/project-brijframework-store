@@ -1,0 +1,148 @@
+[
+	{
+		"id": "owner_ordering_app",
+		"name": "owner_ordering_app",
+		"label": "owner_ordering_app",
+		"url": "/home",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"menuItemIDArray": [
+			"owner_ordering_deshboard",
+			"owner_ordering_main",
+			"owner_ordering_notification",
+			"owner_ordering_setting"
+		]
+	},
+	{
+		"id": "owner_ordering_deshboard",
+		"name": "deshboard panel",
+		"label": "Deshboard",
+		"url": "owner/ordering/dashboard",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "sales and ordering deshboard page"
+	},
+	{
+		"id": "owner_ordering_main",
+		"name": "ordering panel",
+		"label": "Sale And ordering",
+		"url": "owner/ordering/main",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"menuItemIDArray": [
+			"owner_myorder",
+			"owner_orderDetails",
+			"owner_orderHistory"
+		],
+		"discription": "sales and ordering page"
+	},
+	{
+		"id": "owner_myorder",
+		"name": "owner panel",
+		"label": "Order",
+		"url": "owner/ordering/myorder",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "owner order panel"
+	},
+	{
+		"id": "owner_orderDetails",
+		"name": "owner_orderDetails",
+		"label": "Order Details",
+		"url": "owner/ordering/orderDetails",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "owner productorder panel"
+	},
+	{
+		"id": "owner_orderHistory",
+		"name": "owner panel",
+		"label": "Order History",
+		"url": "owner/ordering/orderHistory",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "owner productorder panel"
+	},
+	{
+		"id": "owner_ordering_notification",
+		"name": "notification panel",
+		"label": "notification",
+		"url": "owner/ordering/notification",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "notification page"
+	},
+	{
+		"id": "owner_ordering_setting",
+		"name": "Setting panel",
+		"label": "Setting",
+		"url": "owner/ordering/setting",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "Ordering Setting page"
+	}
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="org.brijframework-store">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="abs-brijframework-web-mvc-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-web-mvc/abs-brijframework-web-mvc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-web-core-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-web-core/abs-brijframework-web-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-services-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-services/abs-brijframework-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-beans-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-beans/abs-brijframework-beans">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-core-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-core/abs-brijframework-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-api-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-api/abs-brijframework-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-resources-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-resources/org.brijframework-resources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-context-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-context/abs-brijframework-context">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-expression-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-expression/abs-brijframework-expression">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-app-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-app/abs-brijframework-app">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-util-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-util/abs-brijframework-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-logger-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-logger/abs-brijframework-logger">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="abs-brijframework-web-svcs-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/abs-brijframework-web-svcs/abs-brijframework-web-svcs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/wproject-brijframework-store/target/classes"/>
+        <property name="context-root" value="org.brijframework-store"/>
+    </wb-module>
+</project-modules>

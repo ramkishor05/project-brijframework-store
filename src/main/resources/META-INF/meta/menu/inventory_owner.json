@@ -1,0 +1,223 @@
+[
+	{
+		"id": "inv_owner_menu",
+		"name": "inv_owner_menu",
+		"label": "inv_owner_menu",
+		"showBreadcrum":true,
+		"url": "/invmain/app",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"menuItemIDArray": [
+			"inventory_owner_deshboard",
+			"inventory_owner_inventory",
+			"inventory_owner_notification",
+			"inventory_owner_setting"
+		]
+	},
+	{
+		"id": "inventory_owner_deshboard",
+		"name": "deshboard panel",
+		"label": "Deshboard",
+		"url": "/invmain/app/dashboard",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "sales and ordering deshboard page"
+	},
+	{
+		"id": "inventory_owner_inventory",
+		"name": "inventory panel",
+		"label": "inventory",
+		"url": "/invmain/app/inventory",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "inventory page"
+	},
+	{
+		"id": "inventory_owner_notification",
+		"name": "inventory panel",
+		"label": "Notification",
+		"url": "/invmain/app/notification",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "notification page"
+	},
+	{
+		"id": "inventory_owner_setting",
+		"name": "setting panel",
+		"label": "setting",
+		"url": "/invmain/app/setting",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page"
+		,
+		"menuItemIDArray": [
+		    "inventory_categoriesGroup",
+			"inventory_categories",
+			"inventory_ingr",
+			"inventory_prep",
+			"inventory_product",
+			"inventory_storage",
+			"inventory_freq"
+		]
+	},
+	{
+		"id": "inventory_categoriesGroup",
+		"name": "setting panel",
+		"label": "Categories Group",
+		"url": "/invmain/app/categoriesGroup",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page",
+	},
+	{
+		"id": "inventory_categories",
+		"name": "setting panel",
+		"label": "Categories",
+		"url": "/invmain/app/categories",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page",
+	},
+	{
+		"id": "inventory_ingr",
+		"name": "setting panel",
+		"label": "Ingreant",
+		"url": "/invmain/app/ingr",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page",
+	},
+	{
+		"id": "inventory_prep",
+		"name": "setting panel",
+		"label": "Prep",
+		"url": "/invmain/app/prep",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page",
+	}
+	,
+	{
+		"id": "inventory_product",
+		"name": "setting panel",
+		"label": "Product",
+		"url": "/invmain/app/product",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page",
+	},
+	{
+		"id": "inventory_storage",
+		"name": "setting panel",
+		"label": "Storage",
+		"url": "/invmain/app/storage",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page",
+	},
+	{
+		"id": "inventory_freq",
+		"name": "setting panel",
+		"label": "Frequency",
+		"url": "/invmain/app/freq",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-cubes fa-4x",
+			"smalIcon": "fa fa-cubes",
+			"link": ""
+		},
+		"discription": "setting page",
+	}
+]

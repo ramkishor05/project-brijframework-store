@@ -1,0 +1,23 @@
+[
+	{ 
+	"id":"data_base_loading_EN",
+	"msgID":"data_base_loading",
+	"typeID":"SERVER",
+	"langID":"EN",
+	"message":"Hi your are load data base"
+	},
+	{ 
+	"id":"REQUEST_FOR_CHACHE_PROCESSED_EN",
+	"msgID":"REQUEST_FOR_CHACHE_PROCESSED",
+	"typeID":"SERVER",
+	"langID":"EN",
+	"message":"Cache processed"
+	},
+	{
+	"id":"UNAUTH_REQUEST_EN",
+	"msgID":"UNAUTH_REQUEST",
+	"typeID":"SERVER",
+	"langID":"EN",
+	"message":"UnAuthorization request"
+	}
+]

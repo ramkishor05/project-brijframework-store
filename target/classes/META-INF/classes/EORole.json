@@ -1,0 +1,13 @@
+[
+	{
+		"classID": "EORole",
+		"classPath": "org.brijframework.hr.EORole",
+		"typeID": "EOCLASS",
+		"isSingleton": true,
+		"isPrototype": false,
+		"properties": [
+			"roleName",
+			"roleID"
+		]
+	}
+]

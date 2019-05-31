@@ -1,0 +1,9 @@
+[
+  {
+   "id":"EOStore_name",
+   "name":"name",
+   "label":"name",
+   "typeID":"NUMBER",
+   "ClassID":"EOAddressBean"
+  }
+]

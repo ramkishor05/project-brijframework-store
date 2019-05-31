@@ -1,0 +1,426 @@
+<style>
+.adminUserBlock {
+	height: 200px;
+	display: inline-block;
+	border-radius: 40px;
+	background-color: #b3d9ff;
+	padding: 20%;
+}
+
+.adminUserBlock label {
+	font-size: 20px;
+	text-align: center;
+}
+
+.ajax-search-drop {
+	background-color: #fbfbfb;
+	border-color: #d5d5d5;
+	border-image: none;
+	border-radius: 0 0 4px 4px;
+	border-style: none solid solid;
+	border-width: 0 1px 1px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 2px #888;
+	color: #444;
+	margin-top: 0;
+	position: absolute;
+	text-decoration: none;
+	top: 100%;
+	white-space: nowrap;
+	z-index: 1 !important;
+}
+
+.ajax-search-drop-inactive {
+	display: none;
+}
+
+.ajax-search-drop-active {
+	display: block;
+}
+
+.ajax-search-no-result {
+	float: left;
+	margin: 0;
+	padding: 10px 0px 8px;
+}
+
+.ajax-search-results li {
+	display: list-item;
+	list-style: outside none none;
+}
+
+.ajax-search-results {
+	list-style-type: none;
+	max-height: 200px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0;
+}
+
+.ajax-search-result {
+	background-clip: padding-box;
+	border-bottom: 1px solid #efefef;
+	margin: 0 -5px;
+	position: relative;
+	text-align: left;
+	top: 100%;
+}
+
+.ajax-search-results .ajax-search-result-lbl {
+	cursor: pointer;
+	margin: 0;
+	padding: 10px 0px 8px;
+}
+
+.ajax-search-result:hover {
+	background: none repeat scroll 0 0 #3875d7;
+	color: #fff;
+}
+
+.text-shadow-none {
+	text-shadow: none !important;
+}
+
+.left-top-radius-5 {
+	border-top-left-radius: 4px !important;
+}
+
+.border-top-right-radius {
+	border-top-right-radius: 4px !important;
+}
+
+.ajax-search-txt-drop-inactive {
+	border-radius: 0 !important;
+}
+
+.ajax-search-txt-drop-active {
+	bborder-radius: 4px 4px 0 0 !important;
+	box-shadow: 0 0 2px #888 !important;
+	border-bottom: none !important;
+}
+
+.ajax-search .ajax-search-txt-drop-inactive input[type="search"]:focus {
+	box-shadow: 0 0 1px #999999 !important;
+}
+
+.ajax-search .ajax-search-txt-drop-active input[type="search"]:focus {
+	box-shadow: none !important;
+}
+
+.ajax-search-input {
+	border: 1px solid #d5d5d5;
+}
+
+.img-circle {
+	height: 130px;
+	width: 130px;
+}
+</style>
+<div ng-if="selectedHash.isHideMdl">
+	<div class="modal-dialog modal-top-margin" id="model-body">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"
+					ng-click="cancel()" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" translate>Add Supplier Item</h4>
+			</div>
+			<div class="modal-body no-padding">
+				<div class="row" style="padding-bottom: 50px;">
+					<h3 class="text-center padding-bottom-30 font-22" translate>How
+						would you like to add your Supplier item?</h3>
+
+					<div class="col-md-6" ng-click="toggleDiv(true)">
+						<div class="relative widget cursor-pointer white"
+							style="background-color: #3ed47d;">
+							<div class="row row-table relative no-margin">
+								<i style="bottom: 3px; left: 15px; color: #80D594;"
+									class="fa fa-plus fa-5x absolute"></i>
+								<div class="col-xs-12 padding-30">
+									<div class="h3 no-margin  text-center font-18" tabindex="1"
+										title="Add and Assign New Supplier Item" translate="">Add
+										and Assign New Supplier Item</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6" ng-click="toggleDiv(false)">
+						<div class="relative widget cursor-pointer white"
+							style="background-color: #35c4ff;">
+							<div class="row row-table relative no-margin">
+								<i style="bottom: 3px; left: 15px; color: #6cd1fd;"
+									class="fa fa-files-o fa-5x absolute"></i>
+								<div class="col-xs-12 padding-30">
+									<div class="h3 no-margin  text-center font-18" tabindex="1"
+										title="Assign Existing Supplier Item" translate="">Assign
+										Existing Supplier Item</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div ng-if="!selectedHash.isHideMdl">
+	<div class="modal-dialog modal-lg modal-top-margin employee-modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"
+					ng-click="cancel()" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">{{objectHash.ingrName}}</h4>
+			</div>
+			<div class="modal-body modal-sidebar" style="height: 383px;"
+				ng-init="showActiveTab()">
+				<form name="myForm" class="" novalidate>
+					<div class="left-section" style="height: 383px;">
+						<ul class="nav tabs-left flexible empModelul">
+							<li class="data_tab active" id="GENERAL_INFO_TAB"><a
+								ng-click="showTabData('GENERAL_INFO_TAB')" translate>General
+									Information</a></li>
+							<li ng-if="selectedHash.isSelFilter" class="data_tab"
+								id="MEASUREMENT_TAB"><a
+								ng-click="showTabData('MEASUREMENT_TAB')" translate>Measurement</a></li>
+						</ul>
+					</div>
+					<div class="content-section"
+						ng-style="{'padding': isOperLevelEnabled?'0px':'auto'}">
+						<!-- Tab panes -->
+						<div class="tab-content emp_general_data"
+							style="max-height: 360px;" alta-nice-scroll>
+
+							<!-- first tab data start -->
+							<div class="tab-pane content-block active" id="GENERAL_INFO_TAB">
+								<div class="row">
+									<div class="col-md-3 col-sm-3 col-xs-3 padding-top-20">
+										<img
+											ng-src="{{vitItem.objUrl || 'assets/images/avatars/Product_icon.png'}} "
+											style="background-color: #ccc; height: 120px; width: 120px;" />
+										<!--  <img-load-drct img-pk="details.imgHash.imgPk"
+                                                       img-url="details.imgHash.duImgUrl" resize-max-height="150"
+                                                       resize-max-width="150"
+                                                       primary-key="updateIngImg(pk,imgUrl,imgPath)"
+                                                       img-init-load-data="altaUserImgObj">
+                               </img-load-drct> -->
+									</div>
+									<div class="col-md-9 col-sm-9 col-xs-9">
+										<div class="row">
+											<div class="col-md-6 col-sm-6 col-xs-6">
+												<div class="form-group">
+													<label class="control-label">Supplier<span
+														class="errorIcon"><i class="fa fa-star"></i></span></label>
+													<div class="controls">
+														<select ui-select2="" ng-model="objectHash.eoCustVendor"
+															ng-change="changeVendor(objectHash.eoCustVendor)">
+															<option value="null" selected="selected">Select
+																Supplier</option>
+															<option ng-repeat="custVendor in objectHash.vendorArray"
+																value="{{custVendor.primaryKey}}">
+																{{custVendor.name}}</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6"
+												ng-if="selectedHash.isAddNew">
+												<div class="from-group">
+													<label class="control-label">Supplier Item Name<span
+														class="errorIcon"><i class="fa fa-star"></i></span></label> <input
+														type="text" class="form-control "
+														placeholder="Enter ingredient name"
+														ng-model="objectHash.name">
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6"
+												ng-if="!selectedHash.isAddNew && !isUpdate">
+												<div class="from-group">
+													<label class="control-label">Search/Assign Item<span
+														class="errorIcon"><i class="fa fa-star"></i></span></label>
+													<alta-ajax-srch-drct
+														action-id="EOCustFoodGroup_filterSupItemArray"
+														display-key="name" custom-object-hash="headerObject"
+														on-select-callback="getVIT(callback)" do-ajax-after="300"
+														no-data-msg="{{'No Match Found'|translate}}"
+														placeholder="{{'Search and Assign' | translate}}">
+													</alta-ajax-srch-drct>
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6" ng-if="isUpdate">
+												<div class="form-group">
+													<label class="control-label">Supplier Item Name <span
+														class="errorIcon"><i class="fa fa-star"></i></span></label>
+													<div class="controls">
+														<input type="text" placeholder="Enter Supplier Item name"
+															class="form-control " ng-model="objectHash.name">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div ng-if="selectedHash.isSelFilter">
+											<div class="row">
+												<div class="col-md-6 col-sm-6 col-xs-6">
+													<div class="form-group">
+														<label class="control-label">SKU#<span
+															class="errorIcon"><i class="fa fa-star"></i></span></label>
+														<div class="controls">
+															<input type="text" placeholder="Enter sku#"
+																class="form-control " ng-model="objectHash.idenNo">
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 col-xs-6">
+													<div class="form-group">
+														<label class="control-label">Item Type</label>
+														<div class="controls">
+															<input type="text" class="form-control disabled"
+																ng-model="objectHash.itemType" ng-disabled="true">
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-md-6 col-sm-6 col-xs-6">
+													<div class="form-group">
+														<label class="control-label">Is Active</label>
+														<div class="controls">
+															<input type="checkbox" ng-model="objectHash.isActive"
+																ng-change="changePack()"
+																class="alta alta-switch alta-switch-5 btn-rotate"
+																name="switch-field-1"> <span class="lbl"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- first tab data end -->
+
+							<!-- second tab data start -->
+							<div class="tab-pane content-block" id="MEASUREMENT_TAB"
+								ng-if=" selectedHash.isSelFilter">
+								<div class="control-group">
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="form-group">
+												<label class="control-label">Case Size<span
+													class="errorIcon"><i class="fa fa-star"></i></span></label>
+												<div class="controls">
+													<input class="form-control width-100-per"
+														ng-disabled="!selectedHash.isDisableCase" type="text"
+														placeholder="Enter Case Size"
+														ng-model="objectHash.numPacksPerCase" only-digits required>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="form-group">
+												<label class="control-label">Enable Pack</label>
+												<div class="controls">
+													<input type="checkbox" ng-model="objectHash.isPack"
+														ng-change="changePack()"
+														class="alta alta-switch alta-switch-5 btn-rotate"
+														name="switch-field-1"> <span class="lbl"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="form-group">
+												<label class="control-label">Pack Size<span
+													class="errorIcon"><i class="fa fa-star"></i></span></label>
+												<div class="controls">
+													<input class="form-contorl width-100-per" type="text"
+														placeholder="Units Per Pack"
+														ng-model="objectHash.numUnitsPerPack" only-digits=""
+														is-float="true" required>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="form-group">
+												<label class="control-label">Pack Unit<span
+													class="errorIcon"><i class="fa fa-star"></i></span></label>
+												<div class="controls">
+													<div class="form-group"
+														ng-if="objectHash.rptUnitArray.length > 10">
+														<select ui-select2="" ng-model="objectHash.eoPackUnit"
+															ng-change="changeUnit(objectHash.eoPackUnit)">
+															<option value="null">Select Unit</option>
+															<option
+																ng-repeat="baseUnitObj in objectHash.rptUnitArray"
+																value="{{baseUnitObj.primaryKey}}">{{baseUnitObj.eoGlbUnit_shortDesc}}</option>
+														</select>
+													</div>
+													<div class="form-group"
+														ng-if="objectHash.rptUnitArray.length <= 10">
+														<select selectize="" ng-model="objectHash.eoPackUnit"
+															ng-change="changeUnit(objectHash.eoPackUnit)">
+															<option value="null" selected="selected">Select
+																Unit</option>
+															<option
+																ng-repeat="baseUnitObj in objectHash.rptUnitArray"
+																value="{{baseUnitObj.primaryKey}}">{{baseUnitObj.eoGlbUnit_shortDesc}}</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="form-group">
+												<label class="control-label">Price Per Case<span
+													class="errorIcon"><i class="fa fa-star"></i></span></label>
+												<div class="input-group">
+													<span class="input-group-addon">{{currencyFormat}}</span> <input
+														type="text" ng-model="objectHash.unitCost" only-digits=""
+														is-float="true" class="form-control" aria-label="200.00"
+														placeholder="0.00">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" ng-if="objectHash.isConversionEnabled">
+											<div class="form-group">
+												<label class="control-label">Conversion</label>
+												<div class="col-md-12 no-padding">
+													<div class="col-xs-2 no-padding padding-top-5">1{{selectedHash.baseunitDesc}}
+														=</div>
+													<div class="col-xs-8">
+														<input name="fieldName"
+															placeholder="Enter Conversion Value" style=""
+															class="form-control" type="text"
+															ng-model="objectHash.numBaseUnitsPerPackUnit">
+													</div>
+													<div class="col-xs-2  padding-top-5">
+														<span>{{selectedHash.unitHash[objectHash.eoBaseUnit].eoGlbUnit_shortDesc}}</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- second tab data end -->
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer padding-25 text-right">
+				<button class="btn btn-success btn-sm" ng-click="save(objectHash)">
+					<i class="fa fa-floppy-o"></i> Save
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+

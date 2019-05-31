@@ -1,0 +1,100 @@
+[
+{
+    "requestMap":{
+           "requestID": "EOProduct_addObject"
+      }
+    ,"parameterMap":{
+                  "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"5"
+     }
+},
+{
+    "requestMap":{
+           "requestID": "EOProduct_updateObject"
+      },
+      "parameterMap":{
+                  "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"5"
+     }
+},
+{
+    "requestMap":{
+           "requestID": "EOProduct_deleteObject"
+      }
+    ,"parameterMap":{
+                  "uniqueID":1
+     }
+},
+{
+    "requestMap":{
+           "requestID": "EOProduct_getObject"
+      }
+    ,"parameterMap":{
+                  "uniqueID":1
+     }
+},
+{
+    "requestMap":{
+           "requestID": "EOProduct_addAllObject"
+      },
+     "parameterList":[
+                 {
+                 "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"1"
+                 },
+                 {
+                 "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"2"
+                 },
+                 {
+                 "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"3"
+                 }
+     ]
+},
+{
+    "requestMap":{
+           "requestID": "EOProduct_updateAllObject"
+      },
+     "parameterList":[
+                 {
+                 "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"1"
+                 },
+                 {
+                 "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"2"
+                 },
+                 {
+                 "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"3"
+                 }
+     ]
+},
+{
+    "requestMap":{
+           "requestID": "EOProduct_deleteAllObject",
+           "uniqueID":1
+      }    ,
+     "parameterList":[
+                 {
+                 "uniqueID":1
+                 },
+                 {
+                 "uniqueID":1
+                 },
+                 {
+                 "uniqueID":1
+                 }
+     ]
+},
+{
+    "requestMap":{
+           "requestID": "EOProduct_getAllObject",
+           "uniqueID":1
+      }    ,
+     "parameterList":[
+                 {
+                 "uniqueID":1
+                 },
+                 {
+                 "uniqueID":1
+                 },
+                 {
+                 "uniqueID":1
+                 }
+     ]
+}
+]

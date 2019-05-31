@@ -1,0 +1,32 @@
+{
+    "application":"demo",
+    "isDesktop":true,
+    "isWebApp":true,
+    "isProduction":false,
+    "isDevelopment":true,
+    "isDatabase":true,
+    "isPersistance":true,
+    "defaultSchema":"hibernate_postgresql_postgres_store",
+	"Configration": {
+		"DBConfig": "META-INF/configration/database.cfg.json",
+		"MataConfig": "META-INF/configration/metadata.cfg.json",
+		"DataConfig": "META-INF/configration/defaultdata.cfg.json",
+		"JsonConfig": "META-INF/configration/defaultjson.cfg.json",
+		"BeanConfig": "META-INF/configration/beans.cfg.json",
+		"ClassConfig":"META-INF/configration/classes.cfg.json",
+		"FileConfig":"META-INF/configration/files.cfg.json",
+		"MessageConfig":"META-INF/configration/messages.cfg.json"
+	},
+	"DirResource":{
+		"MetaDir": "C:\\Application\\metadata",
+		"PesistDir": "C:\\Application\\persist",
+		"DataDir":"C:\\Application\\data",
+		"MailsDir":"C:\\Application\\mail"
+	},
+	"appResource":{
+		"imgDir":"WEB-INF/image/",
+		"fileDir": "WEB-INF/file/",
+		"dataDir":"WEB-INF/data",
+		"resourceDir":"WEB-INF/resource"
+	}
+}

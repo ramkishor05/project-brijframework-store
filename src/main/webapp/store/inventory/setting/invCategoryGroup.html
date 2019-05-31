@@ -1,0 +1,56 @@
+<div class="zrpt_box_content clearfix" ng-if="isLoadingDone">
+	<div class="zrpt_box_content no-padding">
+		<div class="header_wrap no-margin clearfix">
+			<div class="row">
+				<div class="col-md-8"></div>
+				<div class="col-md-4">
+				   <div class="pull-right">
+					<button class="btn btn-primary" ng-click="addModal()">
+						<span class="fa fa-plus-square-o padding-10"></span>Add
+					</button>
+					</div>
+				</div>
+				<div class="seperator_sky"></div>
+			</div>
+		</div>
+		<div class="row clearfix no-margin">
+			<div class="col-md-12 no-padding">
+				<div ng-if="global.categoryGroupList.length>0">
+					<table 
+						class="table table-hover table-striped table-bordered alta-client-table no-margin"
+						width="100%">
+						<thead>
+							<tr>
+								<th ng-repeat="label in metaData"><label><b>{{label}}</b></label></th>
+								<th class="zrpt_action"><label
+									class="pull-right fa fa-eyedropper"><b>Action</b></label></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr ng-repeat="rowObj in global.categoryGroupList">
+								<td>{{rowObj.categoryID}}</td>
+								<td>{{rowObj.name}}</td>
+								<td>{{rowObj.typeID}}</td>
+								<td class="zrpt_action">
+									<div class="pull-right">
+										<div class="form-group">
+											<button class="btn btn-sm btn-o btn-warning"
+												ng-click="updateModal(rowObj)">
+												<span class="glyphicon glyphicon-edit"></span>
+											</button>
+											<button class="btn btn-sm btn-o btn-danger"
+												ng-click="deleteModal(rowObj)">
+												<span class="glyphicon glyphicon-trash"></span>
+											</button>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div ng-if="global.categoryGroupList.length==0">No record founds</div>
+	</div>
+</div>

@@ -1,0 +1,162 @@
+<link rel="stylesheet"
+	href="brijframework/wizard/detail/css/normalize.css">
+<link rel="stylesheet" href="brijframework/wizard/detail/css/style.css">
+<script src="brijframework/wizard/detail/js/detailPageJs.js"></script>
+<div>
+	<div class="detail__wrapper">
+		<div class="detail__container">
+			<div class="row">
+				<div class="col-md-8">
+					<ul class="detail__tabs">
+						<li data-tabtar="lgm-1"><a href="#">General</a></li>
+						<li data-tabtar="lgm-2"><a href="#">Storage</a></li>
+						<li data-tabtar="lgm-3"><a href="#">Supplier Item</a></li>
+						<li data-tabtar="lgm-4"><a href="#">Used In</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<div class="simform__actions">
+					<button class="sumbit red headerbtn" name="signup" type="button"
+							ng-click="close()">Close</button>
+						<button class="sumbit" name="signup" type="button"
+							ng-click="signup()">Save</button>
+					</div>
+				</div>
+			</div>
+			<div class="detail__tab-wrapper">
+				<div class="detail__tab lgm-1">
+					<div class="detail__heading">
+						<span class="detail__heading-subtitle"><strong>{{metaData.header}}</strong></span>
+					</div>
+					<div class="detail__form">
+						<form name="signupform" id="signupform" class="simform">
+							<div class="sminputs row">
+								<div class="col-md-3 padding-10">
+									<img class="string optional from-control"
+										style="border-style: none; padding-left: 50px; padding-right: 0;"
+										maxlength="255" src="brijframework/wizard/detail/logo.jpg"
+										ng-model="objectMap.logoUrl" / width="220px" height="80px">
+								</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'idenNo'| uppercase}}*</label>
+									<input class="string optional" maxlength="255"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										placeholder="{{'Enter iden no'}}" type="text"
+										ng-model="objectMap.idenNo" />
+								</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'name'| uppercase}}*</label> <input
+										class="string optional" maxlength="255"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										placeholder="{{'Enter name'}}" type="text"
+										ng-model="objectMap.username" />
+								</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'description'|
+										uppercase}}</label> <input class="string optional" maxlength="255"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										placeholder="{{'Enter description'}}" type="text"
+										ng-model="objectMap.description" />
+								</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'Categroty'|
+										uppercase}}*</label> <select ui-sletect class="form-control"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										ng-model="objectMap.idenNo">
+										<option>ada</option>
+										<option>ada</option>
+									</select>
+
+								</div>
+							</div>
+							<div class="sminputs row">
+								<div class="col-md-3 padding-10">s</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'Unit Type'|
+										uppercase}}*</label> <select ui-sletect class="form-control"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										ng-model="objectMap.idenNo">
+										<option>WIGHT</option>
+										<option>VOLUES</option>
+									</select>
+								</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'Unit'| uppercase}}*</label> <input
+										class="string optional" maxlength="255"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										type="text" ng-disabled="true"
+										ng-model="objectMap.description" /> </select>
+								</div>
+							</div>
+							<div class="sminputs row">
+								<div class="col-md-3 padding-10">s</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'Base Unit'|
+										uppercase}}*</label> <select ui-sletect class="form-control"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										ng-model="objectMap.idenNo">
+										<option>WIGHT</option>
+										<option>VOLUES</option>
+									</select>
+								</div>
+								<div class="input col-md-4">
+									<label class="string optional">{{'Report Unit'|
+										uppercase}}*</label> <select ui-sletect class="form-control"
+										style="border-bottom: 1px solid #e5e5e5; padding: 5px"
+										ng-model="objectMap.idenNo">
+										<option>WIGHT</option>
+										<option>VOLUES</option>
+									</select>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="detail__tab lgm-2">
+					<div class="detail__form">
+						<form class="simform" id="loginform" name="loginform">
+							<div class="sminputs">
+								<div class="input full">
+									<div class="input col-md-2">
+										<label class="string optional">{{'idenNo'|
+											uppercase}}*</label> <select ui-sletect ng-model="objectMap.idenNo">
+											<option>ada</option>
+											<option>ada</option>
+										</select>
+
+									</div>
+								</div>
+							</div>
+							<div class="sminputs">
+								<div class="input full">
+									<label class="string optional" for="user-pw">Password *</label>
+									<input class="string optional" maxlength="255"
+										id="{{metaData.passwordID}}" name="{{metaData.passwordName}}"
+										placeholder="{{metaData.passwordPlaceHolder}}" type="password"
+										value="{{objectMap.password}}" ng-model="objectMap.password"
+										size="50" required ng-pattern="{{metaData.passwordPattern}}" />
+									<span class="hide-password">Show</span>
+									<div class="alert alert-info formatguide"
+										ng-show="loginform.text.$dirty && loginform.text.$invalid">
+										Enter required pattern</div>
+								</div>
+							</div>
+							<div class="simform__actions">
+								<button class="sumbit" name="signup" ng-click="login()">Log
+									In</button>
+								<span class="simform__actions-sidetext"> <a
+									class="special" role="link" href="{{metaData.forgetLink}}">Forgot
+										your password?<br>Click here
+								</a>
+								</span>
+							</div>
+							<div class="sminputs">
+								<div class="input full">{{metaData.messageBox}}</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

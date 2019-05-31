@@ -1,0 +1,56 @@
+[
+  {
+    "objectID": "eoInvAppMain",
+    "classID": "EOAppMain",
+    "typeID": "EOBEAN",
+    "uniqueKey": "appID",
+    "properties": {
+      "appID": "INVERTORY_APP",
+      "appName": "INVERTORY APP",
+      "appLogo": "assert/app/logo/logo-crm.png",
+      "appURL": "http://localhost:8084/org.brijframework-store/#/invontory"
+    },
+    "relationship": {
+      "appDetail": "eoInvAppDetail",
+      "appEdition": "eoInvAppEdition",
+      "appFeature": "eoInvAppFeature"
+    }
+  },
+  {
+    "objectID": "eoInvAppDetail",
+    "classID": "EOAppDetail",
+    "typeID": "EOBEAN",
+    "uniqueKey": "displayOrder",
+    "properties": {
+      "displayOrder": "1.3",
+      "internalHost": "localhost",
+      "externalHost": "localhost",
+      "internalPort": "8090",
+      "externalPort": "8090"
+    }
+  },
+  {
+    "objectID": "eoInvAppEdition",
+    "classID": "EOAppEdition",
+    "typeID": "EOBEAN",
+    "uniqueKey": "displayOrder",
+    "properties": {
+      "description": "Customer relationship for employee , sales man , and othor person",
+      "monthlyRate": "11.50",
+      "displayOrder": "1.3",
+      "startPayDay": "30",
+      "isFreeEdition": true
+    }
+  },
+  {
+    "objectID": "eoInvAppFeature",
+    "classID": "EOAppFeature",
+    "typeID": "EOBEAN",
+    "uniqueKey": "displayOrder",
+    "properties": {
+      "displayOrder": "1.3",
+      "description": "Customer can be store employee , sales man , and othor person dateils",
+      "viewDetail": "Customer can be store employee , sales man , and othor person dateils and view contact informartion"
+    }
+  }
+]

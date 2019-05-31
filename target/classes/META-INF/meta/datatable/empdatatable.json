@@ -1,0 +1,8 @@
+[
+	{
+	"headerLabel":"Data for Customer",
+	"footerLabel":"Data for Customer",
+	"id":"EOCustomer_002",
+	"bean":"org.brijframework.store.eo.person.EOCustomer"
+	}
+]	

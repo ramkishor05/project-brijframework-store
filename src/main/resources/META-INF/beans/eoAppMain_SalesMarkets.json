@@ -1,0 +1,57 @@
+[
+	{
+		"objectID": "eoSalesAppMain",
+		"classID": "EOAppMain",
+		"typeID": "EOBEAN",
+		"uniqueKey": "appID",
+		"properties": {
+			"appID": "MARKET_APP",
+			"appName": "Sales App",
+			"appLogo": "assert/app/logo/sales-app.png",
+			"appURL": "http://localhost:8084/org.brijframework-store/#/sales"
+		},
+		"relationship": {
+			"appDetail": "eoSalesAppDetail",
+			"appEdition": "eoSalesAppEdition",
+			"appFeature": "eoSalesAppFeature"
+		}
+	},
+	{
+		"objectID": "eoSalesAppDetail",
+		"classID": "EOAppDetail",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"displayOrder": "1.1",
+			"internalHost": "localhost",
+			"externalHost": "localhost",
+			"internalPort": "8090",
+			"externalPort": "8090"
+		}
+	},
+	{
+		"objectID": "eoSalesAppEdition",
+		"classID": "EOAppEdition",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"displayOrder": "1.1",
+			"description": "Sales for any product, sales details, and othor ",
+			"monthlyRate": "15.50",
+			"startPayDay": "30",
+			"isFreeEdition": true
+		}
+	},
+	{
+		"objectID": "eoSalesAppFeature",
+		"classID": "EOAppFeature",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"displayOrder": "1.1",
+			"description": "Sales can be product dateils and about information",
+			"viewDetail": "Sales can be product dateils and about information and  view report informartion"
+		}
+	}
+
+  ]

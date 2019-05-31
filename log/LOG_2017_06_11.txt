@@ -1,0 +1,234 @@
+
+************************************************************
+		Sun Jun 11 17:47:13 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+
+************************************************************
+		Sun Jun 11 17:50:41 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.app.EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.app.EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.app.EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.app.EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.cust.EOCustApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOAppUser
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOCustDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOCustUser
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EONotification
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOUser
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOUserDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.hr.EOUserInfo
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOCity
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOContact
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOCountry
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOCurrency
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EODepartment
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOLanguage
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOLocation
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOState
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOTemperature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOUnit
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOUnitConversion
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.lookup.EOUnitGroup
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.crm.EOCustomer
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.crm.EOEmployee
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.crm.EOOrganization
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.crm.EOSupplier
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOCategory
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOCategoryGroup
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOFitLocation
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOImgDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOIngredient
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOItem
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOPreparation
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOProduct
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOProductDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EORecipe
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.inventory.EOStorage
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.ordering.EOCart
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.ordering.EOCoupan
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.ordering.EOOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.ordering.EOOrderHistory
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain for org.brijframework.store.ordering.EOSale
+
+************************************************************
+		Sun Jun 11 17:51:36 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old

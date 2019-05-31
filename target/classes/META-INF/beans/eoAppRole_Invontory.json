@@ -1,0 +1,92 @@
+[
+ {
+    "objectID": "eoInvOwnerRole",
+    "classID": "EOAppRole",
+    "typeID": "EOBEAN",
+    "uniqueKey": "appRoleID",
+    "properties": {
+      "appRoleID": "INV_OWNER",
+      "appRoleName": "INV OWNER",
+      "appMenuID": "inv_owner_menu"
+    },
+    "relationship": {
+      "eoRole": "eoOwnerRole",
+      "eoAppMain": "eoInvAppMain"
+    }
+  },
+  {
+    "objectID": "eoInvAdminRole",
+    "classID": "EOAppRole",
+    "typeID": "EOBEAN",
+    "uniqueKey": "appRoleID",
+    "properties": {
+      "appRoleID": "INV_ADMIN",
+      "appRoleName": "INV ADMIN ",
+      "appMenuID": "inv_admin_menu"
+    },
+    "relationship": {
+       "eoRole": "eoAdminRole",
+       "eoAppMain": "eoInvAppMain"
+    }
+  },
+  {
+    "objectID": "eoInvManagerRole",
+    "classID": "EOAppRole",
+    "typeID": "EOBEAN",
+    "uniqueKey": "appRoleID",
+    "properties": {
+      "appRoleID": "INV_MANAGER",
+      "appRoleName": "INV MANAGER",
+      "appMenuID": "inv_manager_menu"
+    },
+    "relationship": {
+      "eoRole": "eoManagerRole",
+      "eoAppMain": "eoInvAppMain"
+    }
+  },
+  {
+    "objectID": "eoInvSuperviserRole",
+    "classID": "EOAppRole",
+    "typeID": "EOBEAN",
+    "uniqueKey": "appRoleID",
+    "properties": {
+      "appRoleID": "INV_SUPERVISER",
+      "appRoleName": "INV SUPERVISER",
+      "appMenuID": "inv_Superviser_menu"
+    },
+    "relationship": {
+      "eoRole": "eoSuperviserRole",
+      "eoAppMain": "eoInvAppMain"
+    }
+  },
+  {
+    "objectID": "eoInvCrowRole",
+    "classID": "EOAppRole",
+    "typeID": "EOBEAN",
+    "uniqueKey": "appRoleID",
+    "properties": {
+      "appRoleID": "INV_CROW",
+      "appRoleName": "INV CROW",
+      "appMenuID": "inv_crow_menu"
+    },
+    "relationship": {
+      "eoRole": "eoCrowRole",
+      "eoAppMain": "eoInvAppMain"
+    }
+  },
+  {
+    "objectID": "eoOInvUserRole",
+    "classID": "EOAppRole",
+    "typeID": "EOBEAN",
+    "uniqueKey": "appRoleID",
+    "properties": {
+      "appRoleID": "INV_USER",
+      "appRoleName": "INV USER ",
+      "appMenuID": "inv_user_menu"
+    },
+    "relationship": {
+       "eoRole": "eoUserRole",
+       "eoAppMain": "eoInvAppMain"
+    }
+  }
+]

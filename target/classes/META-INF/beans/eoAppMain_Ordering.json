@@ -1,0 +1,56 @@
+[
+	{
+		"objectID": "eoOrderingAppMain",
+		"classID": "EOAppMain",
+		"typeID": "EOBEAN",
+		"uniqueKey": "appID",
+		"properties": {
+			"appID": "ORDERING_APP",
+			"appName": "Ordering App",
+			"appLogo": "assert/app/logo/logo-crm.png",
+			"appURL": "http://localhost:8084/org.brijframework-store/#/ordering"
+		},
+		"relationship": {
+			"appDetail": "eoOrderingAppDetail",
+			"appEdition": "eoOrderingAppEdition",
+			"appFeature": "eoOrderingAppFeature"
+		}
+	},
+	{
+		"objectID": "eoOrderingAppDetail",
+		"classID": "EOAppDetail",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"displayOrder": "1.3",
+			"internalHost": "localhost",
+			"externalHost": "localhost",
+			"internalPort": "8090",
+			"externalPort": "8090"
+		}
+	},
+	{
+		"objectID": "eoOrderingAppEdition",
+		"classID": "EOAppEdition",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"description": "Ordering relationship for employee , sales man , and othor person",
+			"monthlyRate": "11.50",
+			"displayOrder": "1.3",
+			"startPayDay": "30",
+			"isFreeEdition": true
+		}
+	},
+	{
+		"objectID": "eoOrderingAppFeature",
+		"classID": "EOAppFeature",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"displayOrder": "1.3",
+			"description": "Ordering can be store employee , sales man , and othor person dateils",
+			"viewDetail": "Ordering can be store employee , sales man , and othor person dateils and view contact informartion"
+		}
+	}
+]

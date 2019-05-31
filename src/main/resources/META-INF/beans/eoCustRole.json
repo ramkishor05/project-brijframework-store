@@ -1,0 +1,74 @@
+[
+	{
+		"objectID": "eoCustOwnerRole",
+		"classID": "EOCustRole",
+		"typeID": "EOBEAN",
+		"uniqueKey": "custRoleID",
+		"properties": {
+			"custRoleID": "OWNER"
+		},
+		"relationship": {
+			"eoRole": "eoOwnerRole"
+		}
+	},
+	{
+		"objectID": "eoCustAdminRole",
+		"classID": "EOCustRole",
+		"typeID": "EOBEAN",
+		"uniqueKey": "custRoleID",
+		"properties": {
+			"custRoleID": "ADMIN"
+		},
+		"relationship": {
+			"eoRole": "eoAdminRole"
+		}
+	},
+	{
+		"objectID": "eoCustManagerRole",
+		"classID": "EOCustRole",
+		"typeID": "EOBEAN",
+		"uniqueKey": "custRoleID",
+		"properties": {
+			"custRoleID": "MANAGER"
+		},
+		"relationship": {
+			"eoRole": "eoManagerRole"
+		}
+	},
+	{
+		"objectID": "eoCustSuperviserRole",
+		"classID": "EOCustRole",
+		"typeID": "EOBEAN",
+		"uniqueKey": "custRoleID",
+		"properties": {
+			"custRoleID": "SUPERVISER"
+		},
+		"relationship": {
+			"eoRole": "eoSuperviserRole"
+		}
+	},
+	{
+		"objectID": "eoCustCrewRole",
+		"classID": "EOCustRole",
+		"typeID": "EOBEAN",
+		"uniqueKey": "custRoleID",
+		"properties": {
+			"custRoleID": "CREW"
+		},
+		"relationship": {
+			"eoRole": "eoCrowRole"
+		}
+	},
+	{
+		"objectID": "eoCustUserRole",
+		"classID": "EOCustRole",
+		"typeID": "EOBEAN",
+		"uniqueKey": "custRoleID",
+		"properties": {
+			"custRoleID": "USER"
+		},
+		"relationship": {
+			"eoRole": "eoUserRole"
+		}
+	}
+]

@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="brijframework/wizard/login/css/normalize.css">
+<link rel="stylesheet" href="brijframework/wizard/login/css/style.css">
+<script src="brijframework/wizard/login/js/loginPageJs.js"></script>
+ <div>
+  <div class="logmod__wrapper">
+    <div class="logmod__container">
+      <ul class="logmod__tabs">
+        <li data-tabtar="lgm-2"><a href="#">Login</a></li>
+        <li data-tabtar="lgm-1"><a href="#">Sign Up</a></li>
+      </ul>
+      <div class="logmod__tab-wrapper">
+      
+      <div class="logmod__tab lgm-1">
+        <div class="logmod__heading">
+          <span class="logmod__heading-subtitle"><strong>{{metaData.signupHeader}} to create an acount</strong></span>
+        </div>
+        <div class="logmod__form">
+          <form name="signupform" id="signupform" class="simform">
+            <div class="sminputs">
+              <div class="input full">
+                <label class="string optional" for="{{metaData.userLabel}}">{{metaData.userLabel| uppercase}}*</label>
+                <input class="string optional" maxlength="255" id="{{metaData.userID}}" name="{{metaData.userName}}" placeholder="{{metaData.userPlaceHolder}}" type="{{metaData.userType}}" value="{{objectMap.username}}" ng-model="objectMap.username" ng-keyup="isUserExist()" size="50" required ng-pattern="{{metaData.userPattern}}"/>
+              </div>
+            </div>
+            <div class="sminputs">
+              <div class="input string optional">
+                <label class="string optional" for="user-pw">Password *</label>
+				<input class="string optional" maxlength="255" id="{{metaData.passwordID}}" name="{{metaData.passwordName}}" placeholder="{{metaData.passwordPlaceHolder}}" type="password" value="{{objectMap.password}}" ng-model="objectMap.password"  size="50" required ng-pattern="{{metaData.passwordPattern}}" />         
+				 <span class="hide-password">Show</span>
+               <div class="pwstrength_viewport_progress"></div>
+              </div>
+              <div class="input string optional">
+                <label class="string optional" for="repeatpassword">Repeat password *</label>
+                <input class="string optional" maxlength="255" id="{{metaData.rePasswordID}}" name="{{metaData.rePasswordName}}" placeholder="{{rePasswordPlaceHolder}}"  type="password" value="{{objectMap.rePassword}}" ng-model="objectMap.rePassword"  size="50" />
+                <span class="hide-password">Show</span>
+                <div class="alert alert-info formatguide" ng-show="signupform.text.$dirty && signupform.text.$invalid">
+                  Enter required pattern
+               </div>
+              </div>
+            </div>
+            <div class="simform__actions">
+              <button class="sumbit" name="signup" type="button" ng-click="signup()">Create Account</button>
+              <span class="simform__actions-sidetext">By creating an account you agree to our <a class="special" href="{{metaData.termLink}}" target="_blank" role="link">Terms & Privacy</a></span>
+            </div>
+             <div class="sminputs">
+               <div class="input full" >{{metaData.messageBox}}</div>
+            </div> 
+           </form>
+        </div>
+      </div>
+      <div class="logmod__tab lgm-2">
+        <div class="logmod__heading">
+          <span class="logmod__heading-subtitle"><strong>{{metaData.loginHeader}} to login</strong></span>
+        </div> 
+        <div class="logmod__form">
+          <form class="simform" id="loginform" name="loginform">
+            <div class="sminputs">
+              <div class="input full">
+                <label class="string optional" for="{{metaData.userLabel}}">{{metaData.userLabel| uppercase}}*</label>
+                <input class="string optional" maxlength="255" id="{{metaData.userID}}" name="{{metaData.userName}}" placeholder="{{metaData.userPlaceHolder}}" type="{{metaData.userType}}" value="{{metaData.userText}}" size="50" ng-model="objectMap.username" ng-keyup="isUserExist()" required ng-pattern="{{metaData.userPattern}}"/>
+              </div>
+            </div>
+            <div class="sminputs" >
+              <div class="input full">
+                <label class="string optional" for="user-pw">Password *</label>
+                <input class="string optional" maxlength="255" id="{{metaData.passwordID}}" name="{{metaData.passwordName}}" placeholder="{{metaData.passwordPlaceHolder}}" type="password" value="{{objectMap.password}}" ng-model="objectMap.password"  size="50" required ng-pattern="{{metaData.passwordPattern}}" />
+                <span class="hide-password">Show</span>
+                <div class="alert alert-info formatguide" ng-show="loginform.text.$dirty && loginform.text.$invalid">
+                  Enter required pattern
+               </div>
+              </div>
+            </div>
+            <div class="simform__actions">
+              <button class="sumbit" name="signup" ng-click="login()">Log In</button>
+              <span class="simform__actions-sidetext">
+              <a class="special" role="link" href="{{metaData.forgetLink}}">Forgot your password?<br>Click here</a>
+             </span>
+            </div> 
+            <div class="sminputs">
+              <div class="input full" >{{metaData.messageBox}}</div>
+            </div> 
+          </form>
+        </div> 
+       </div>
+     </div>
+    </div>
+  </div>
+</div>

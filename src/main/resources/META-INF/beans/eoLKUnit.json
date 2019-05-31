@@ -1,0 +1,110 @@
+[
+
+	{
+		"objectID": "eoLKUnit_Tsp",
+		"classID": "EOLKUnit",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "TSP",
+			"shortDesc":"Tsp",
+			"longDesc":"Tsp",
+			"friendlyName":"Volume ( Tsp }"
+		},
+		"relationship":{
+		   "eoUnitGroup":"eoLKUnitGroup_Fluid"
+		}
+	}
+	,
+	{
+		"objectID": "eoLKUnit_Tbsp",
+		"classID": "EOLKUnit",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "TBSP",
+			"shortDesc":"Tbsp",
+			"longDesc":"Tbsp",
+			"friendlyName":"Volume ( Tbsp }"
+		},
+		"relationship":{
+		   "eoUnitGroup":"eoLKUnitGroup_Fluid"
+		}
+	},
+	{
+		"objectID": "eoLKUnit_Pint",
+		"classID": "EOLKUnit",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "PINT",
+			"shortDesc":"Pt",
+			"longDesc":"Pint",
+			"friendlyName":"Volume ( Pint }"
+		},
+		"relationship":{
+		   "eoUnitGroup":"eoLKUnitGroup_Fluid"
+		}
+	},
+	{
+		"objectID": "eoLKUnit_Quart",
+		"classID": "EOLKUnit",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "QUART",
+			"shortDesc":"Qrt",
+			"longDesc":"Quart",
+			"friendlyName":"Volume ( Quart }"
+		},
+		"relationship":{
+		   "eoUnitGroup":"eoLKUnitGroup_Fluid"
+		}
+	},
+	{
+		"objectID": "eoLKUnit_Gallon",
+		"classID": "EOLKUnit",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "GALLON",
+			"shortDesc":"Gl",
+			"longDesc":"Gallon",
+			"friendlyName":"Volume ( Gallon }"
+		},
+		"relationship":{
+		   "eoUnitGroup":"eoLKUnitGroup_Fluid"
+		}
+	},
+	,
+	{
+		"objectID": "eoLKUnit_KG",
+		"classID": "EOLKUnit",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "KILOGRAM",
+			"shortDesc":"K G",
+			"longDesc":"Kilo Gram",
+			"friendlyName":" Weight ( Gallon }"
+		},
+		"relationship":{
+		   "eoUnitGroup":"eoLKUnitGroup_SOLID"
+		}
+	},
+	{
+		"objectID": "eoLKUnit_GR",
+		"classID": "EOLKUnit",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "GRAM",
+			"shortDesc":"Gr",
+			"longDesc":"Gram",
+			"friendlyName":" Weight ( Gram }"
+		},
+		"relationship":{
+		   "eoUnitGroup":"eoLKUnitGroup_SOLID"
+		}
+	}
+]

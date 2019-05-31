@@ -1,0 +1,56 @@
+[
+  {
+    "objectID": "eoAddress",
+    "classID": "EOAddress",
+    "typeID": "EOBEAN",
+    "properties": {
+      "addressID": 1,
+      "landMark": "noida"
+    }
+  },
+  {
+    "objectID": "eoUser",
+    "classID": "EOUser",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "username",
+    "properties": {
+      "username": "ramkishor@gmail.com",
+      "password": "ram"
+    },
+    "relationship": {
+      "eoRole": "eoOwnerRole",
+      "eoUserInfo": "eoUserInfo",
+      "eoUserDetail": "eoUserDetail"
+    }
+  },
+  {
+    "objectID": "eoUserInfo",
+    "classID": "EOUserInfo",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "userID",
+    "properties": {
+      "userID": "12415",
+      "firstName": "ram",
+      "midName": "kishor",
+      "lastName": "Kushwah",
+      "age": 25,
+      "dob": "05/09/1992",
+      "gender": "Male"
+    }
+  },
+  {
+    "objectID": "eoUserDetail",
+    "classID": "EOUserDetail",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "userID",
+    "properties": {
+      "userID": "12415"
+    }
+  }
+]

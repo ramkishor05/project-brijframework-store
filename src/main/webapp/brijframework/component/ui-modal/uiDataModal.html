@@ -1,0 +1,122 @@
+<style>
+.modal-body {
+	overflow-y: hidden;
+	max-height: 400px;
+}
+
+.modal {
+	margin: 0px;
+	padding: 0px
+}
+
+.modal-dialog {
+	margin: 5% auto;
+}
+</style>
+<div ng-switch="metaData.type">
+	<div ng-switch-when="add">
+		<div class="panel" style="margin: 0px; padding: 0px">
+			<div class="modal-header state modal-primary panel-header">
+				<div class="panel-actions">
+					<ul>
+						<li class="action toggle-panel panel-expand"><span></span></li>
+						<li class="action"><span class="fa fa-bars action"
+							aria-hidden="true"></span></li>
+						<li class="action remove-panel" ng-click="cancel()"><span
+							class="fa fa-times action" aria-hidden="true"></span></li>
+					</ul>
+				</div>
+				<h4 class="modal-title" id="modal-success-label">
+					<i class="fa fa-check"></i>{{headerLabel}}
+				</h4>
+			</div>
+			<div class="modal-body panel-content" id="modal-body"
+				style="height: 400px; padding: 10px">
+				
+				<div class="nano">
+					<div class="nano-content">
+						<div class="col-md-6" ng-repeat="field in metaData.fieldArray">
+							<ui-field 
+							    meta-data="field"
+								ng-model="modalMap.objectMap[field.name]"
+								data-map="modalMap.objectMap" id="{{field.id}}"
+								></ui-field>
+								{{field.value}}
+						</div>
+						{{objectMap}}
+					</div>
+				</div>
+				
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+				<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+			</div>
+		</div>
+	</div>
+	<div ng-switch-when="update">
+		<div class="panel" style="margin: 0px; padding: 0px">
+			<div class="modal-header state modal-success panel-header">
+				<div class="panel-actions">
+					<ul>
+						<li class="action toggle-panel panel-expand"><span></span></li>
+						<li class="action"><span class="fa fa-bars action"
+							aria-hidden="true"></span></li>
+						<li class="action remove-panel" ng-click="cancel()"><span
+							class="fa fa-times action" aria-hidden="true"></span></li>
+					</ul>
+				</div>
+				<h4 class="modal-title" id="modal-success-label">
+					<i class="fa fa-check"></i>{{modalName}}
+				</h4>
+			</div>
+			<div class="modal-body panel-content" id="modal-body"
+				style="height: 400px; padding: 10px">
+				<div class="nano">
+					<div class="nano-content">
+						<div class="col-md-6" ng-repeat="field in metaData.fieldArray">
+							<ui-field ng-if="field.typeID=='REL' && field.id !='uniqueID'"
+								ng-model="modalMap.objectMap[field.name]"
+								object-data-map="modalMap.objectMap" id="{{field.id}}"
+								display-key="{{field.displayKey}}"></ui-field>
+						</div>
+						<div class="col-md-6" ng-repeat="field in metaData.fieldArray">
+							<ui-field ng-if="field.typeID!='REL' && field.id !='uniqueID'"
+								ng-model="modalMap.objectMap[field.name]"
+								object-data-map="modalMap.objectMap" id="{{field.id}}"
+								display-key="{{field.displayKey}}"></ui-field>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-success" type="button" ng-click="ok()">OK</button>
+			<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+		</div>
+	</div>
+	<div ng-switch-when="view">
+		<div class="modal-header state modal-success">
+			<button type="button" class="close" aria-label="Close"
+				ng-click="cancel()">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<h4 class="modal-title" id="modal-success-label">
+				<i class="fa fa-check"></i>{{modalName}}
+			</h4>
+		</div>
+		<div class="modal-body" id="modal-body">
+			<div style="padding: 10px">
+				<div class="col-md-12" ng-repeat="field in metaData.fieldArray">
+
+					<ui-field ng-model="modalMap.objectMap[field.name]"
+						object-data-map="modalMap.objectMap" id="{{field.id}}"></ui-field>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-success" type="button" ng-click="ok()">OK</button>
+			<button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+		</div>
+	</div>
+</div>

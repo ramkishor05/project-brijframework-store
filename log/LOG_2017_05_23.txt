@@ -1,0 +1,840 @@
+
+************************************************************
+		Tue May 23 06:06:40 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserDetail O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserInfo O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserInfo
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserDetail O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUser O  WHERE  O.username = :username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUser
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.beans.factory.DataBeanFactory.getFactory(DataBeanFactory.java:32)
+	at org.brijframework.test.TestMain.main(TestMain.java:77)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.beans.factory.DataBeanFactory.getFactory(DataBeanFactory.java:32)
+	at org.brijframework.test.TestMain.main(TestMain.java:77)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :keys or params not valid
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.beans.factory.DataBeanFactory.getFactory(DataBeanFactory.java:32)
+	at org.brijframework.test.TestMain.main(TestMain.java:77)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.beans.factory.DataBeanFactory.getFactory(DataBeanFactory.java:32)
+	at org.brijframework.test.TestMain.main(TestMain.java:77)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserInfo O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserInfo
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :keys or params not valid
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserDetail O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserInfo O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserInfo
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserDetail O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUser O  WHERE  O.username = :username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUser
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.test.TestMain.main(TestMain.java:78)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.test.TestMain.main(TestMain.java:78)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :keys or params not valid
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.test.TestMain.main(TestMain.java:78)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppEdition O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppDetail O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppMain O  WHERE  O.appID = :appID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.appRoleID = :appRoleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustRole O  WHERE  O.custRoleID = :custRoleID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalAccessException: Can not set static final java.lang.String field org.brijframework.hr.EOCustRole.OWER_ROLE to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+	at sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:175)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.base.builder.ModelBuilder.setProperty(ModelBuilder.java:95)
+	at org.brijframework.base.builder.ModelBuilder.setProperties(ModelBuilder.java:184)
+	at org.brijframework.beans.factory.DataBeanFactory.loadBean(DataBeanFactory.java:108)
+	at org.brijframework.beans.factory.DataBeanFactory.defaultLoader(DataBeanFactory.java:60)
+	at org.brijframework.test.TestMain.main(TestMain.java:78)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOCustRole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EORole O  WHERE  O.roleID = :roleID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppFeature O  WHERE  O.displayOrder = :displayOrder
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOUserInfo O  WHERE  O.userID = :userID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserInfo
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :keys or params not valid
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :calling data for map :org.brijframework.web.services.beans.WebAuthenticationBean@ab3e3a
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCustUser O  WHERE  O.username = :username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :SERVER message does not contain

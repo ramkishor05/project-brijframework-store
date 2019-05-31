@@ -1,0 +1,60 @@
+
+************************************************************
+		Tue Aug 01 22:26:53 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrCountFreq e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrCountFreq e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrCountFreq e  WHERE  e.uniqueID = :uniqueID

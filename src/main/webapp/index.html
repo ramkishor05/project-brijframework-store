@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en" class="fixed" ng-app="storeApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Brij storeApp</title>
+    <!-- assert vendor css-->
+    <link rel="apple-touch-icon" sizes="120x120" href="brijframework/assert/favicon/apple-icon-120x120.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="brijframework/assert/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="brijframework/assert/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="brijframework/assert/favicon/favicon-16x16.png">
+    <link rel="stylesheet"  href="assert/vendor/pace/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="assert/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assert/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assert/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="assert/vendor/data-table/media/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assert/vendor/data-table/extensions/Responsive/css/responsive.bootstrap.min.css">
+    <link rel="stylesheet" href="assert/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="assert/vendor/select2/css/select2-bootstrap.min.css">
+    <link rel="stylesheet" href="assert/vendor/bootstrap_date-picker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="assert/vendor/bootstrap_time-picker/css/timepicker.css">
+    <link rel="stylesheet" href="assert/vendor/bootstrap_color-picker/css/bootstrap-colorpicker.min.css">
+    <link rel="stylesheet" href="assert/stylesheets/css/style.css">
+    <link rel="stylesheet" href="assert/vendor/pnotify/pnotify.custom.css">
+     <!-- assert vendor js-->
+	<script type='text/javascript' src="assert/vendor/jquery/jquery-1.12.3.min.js"></script>
+   	<script type='text/javascript' src="assert/vendor/pace/pace.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/nano-scroller/nano-scroller.js"></script>
+	<script type='text/javascript' src="assert/javascripts/template-script.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/data-table/media/js/jquery.dataTables.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/data-table/media/js/dataTables.bootstrap.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/data-table/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/data-table/extensions/Responsive/js/responsive.bootstrap.min.js"></script>
+	<script type='text/javascript' src="assert/javascripts/examples/tables/data-tables.js"></script>
+	<script type='text/javascript' src="assert/vendor/pnotify/pnotify.custom.js"></script>
+    <script type='text/javascript' src="assert/javascripts/examples/ui-elements/notifications-pnotify.js"></script>
+    <script type='text/javascript' src="assert/vendor/bootstrap_max-lenght/bootstrap-maxlength.js"></script>
+	<script type='text/javascript' src="assert/vendor/select2/js/select2.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/input-masked/inputmask.bundle.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/input-masked/phone-codes/phone.js"></script>
+	<script type='text/javascript' src="assert/vendor/bootstrap_date-picker/js/bootstrap-datepicker.min.js"></script>
+	<script type='text/javascript' src="assert/vendor/bootstrap_time-picker/js/bootstrap-timepicker.js"></script>
+	<script type='text/javascript' src="assert/vendor/bootstrap_color-picker/js/bootstrap-colorpicker.min.js"></script>
+	<script type='text/javascript' src="assert/javascripts/examples/forms/advanced.js"></script>
+     
+     <!-- libs -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="brijframework/libs/w3c/css/w3.css" >
+    <link rel="stylesheet" href="brijframework/assert/css/stylesheet.css">
+    <link rel="stylesheet" href="brijframework/libs/angularjs/material/icon.css">
+	<link rel="stylesheet" href="brijframework/libs/angularjs/material/angular-material.min.css">
+	<link  type='text/css'  src="brijframework/libs/angularjs/processbar/loading-bar.css" rel='stylesheet'  media='all' />
+    <script type='text/javascript' src="brijframework/libs/jquery/js/jquery-ui.js"></script>
+	<script type='text/javascript' src="brijframework/libs/w3c/js/w3data.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/angular.min.js"></script>
+		
+	<script type='text/javascript' src="brijframework/libs/angularjs/angular-ui-router.min.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/angular-animate.min.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/angular-aria.min.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/angular-messages.min.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/angular-resource.min.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/material/angular-material.min.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/ui-bootstrap-tpls-2.2.0.min.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/processbar/loading-bar.js"></script>
+	<script type='text/javascript' src="brijframework/libs/angularjs/angular-sanitize.js"></script>
+    <script type='text/javascript' src="brijframework/tp/angular-1.5.7/angular-cookies.min.js"></script>
+	<!-- root -->
+	<script type="text/javascript" src="brijframework/webApp.js"></script>
+	
+	 <!-- web objects -->
+    <script type="text/javascript" src="brijframework/WebObject.js"></script>
+    
+	<!-- utils  -->
+	<script type="text/javascript" src="brijframework/util/baseUtil.js"></script>
+	<script type="text/javascript" src="brijframework/util/objectUtil.js"></script>
+	<script type="text/javascript" src="brijframework/util/dateUtil.js"></script>
+	<script type="text/javascript" src="brijframework/services/GlobalService.js"></script>
+	
+	<!-- services -->
+	<script type="text/javascript" src="brijframework/services/ajaxServices.js"></script>
+	<script type="text/javascript" src="brijframework/services/metaDataServices.js"></script>
+	<script type="text/javascript" src="brijframework/services/dataServices.js"></script>
+	<script type="text/javascript" src="brijframework/services/notificationMessage.js"></script>
+	<script type="text/javascript" src="brijframework/services/messageServices.js"></script>
+	
+	<!-- root component -->
+	<script type="text/javascript" src="brijframework/frame/header/uiHeader.js"></script>
+	<script type="text/javascript" src="brijframework/frame/menu/uiMenu.js"></script>
+	<script type="text/javascript" src="brijframework/frame/sidebar/uiRightSideBar.js"></script>
+	<script type="text/javascript" src="brijframework/frame/breadcrumb/uiBreadcrumb.js"></script> 
+	<script type="text/javascript" src="brijframework/frame/panel/viewPanelCtrl.js"></script>
+	<script type="text/javascript" src="brijframework/frame/panel/viewPanelSvcs.js"></script>
+	
+	<!-- element component -->
+	<script type="text/javascript" src="brijframework/component/UIMetaObjects.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-message/modalMessage.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-panel/alertPanel.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-modal/uiDataModal.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-modal/uiModal.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-search/uiSearch.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-table/uiTable.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-pagination/uiPagination.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-field/uiEditField.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-field/uiField.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-lookup/uiLookup.js"></script>
+    <script type="text/javascript" src="brijframework/component/ui-photo/uiPhoto.js"></script>
+    <script type="text/javascript" src="brijframework/wizard/login/loginWizard.js"></script>
+     <script type="text/javascript" src="brijframework/wizard/detail/detailWizard.js"></script>
+        
+	<!-- app -->
+	  <link rel="stylesheet" href="assert/app/invapp.css"></script>
+	<script type="text/javascript" src="store/storeApp.js"></script>
+
+	<script type="text/javascript" src="store/landing/userControlCtrl.js"></script>
+	<script type="text/javascript" src="store/landing/appMarketCtrl.js"></script>
+	<script type="text/javascript" src="store/landing/userLandingCtrl.js"></script>
+	<script type="text/javascript" src="store/app/appCtrl.js"></script>
+	
+	<script type="text/javascript" src="store/inventory/invApp.js"></script>
+	<script type="text/javascript" src="store/inventory/invMainCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/invObjects.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invCategoryGroupCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invCategoryGroupMdlCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invCategoryCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invCategoryMdlCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invIngrCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invIngrMdlCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invPrepCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invPrepMdlCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invProductCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invProductMdlCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invCountFreqCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invStorageCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invStorageDetailCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invStorageMdlCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/setting/invLocationMdlCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/notification/invNotificationCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/main/invInventoryCtrl.js"></script>
+	<script type="text/javascript" src="store/inventory/dashboard/invDashboardCtrl.js"></script>
+	
+	<!-- <script type="text/javascript" src="store/crm/crmApp.js"></script>
+	<script type="text/javascript" src="store/crm/crmAppCtrl.js"></script>
+	<script type="text/javascript" src="store/crm/customer/customerCtrl.js"></script> -->
+	<!-- script type="text/javascript" src="store/sales/counterSaleCtrl.js"></script>
+	<script type="text/javascript" src="store/sales/holeSaleCtrl.js"></script>
+	<script type="text/javascript" src="store/production/productCtrl.js"></script>
+	<script type="text/javascript" src="store/production/productDetailsCtrl.js"></script>
+	<script type="text/javascript" src="store/ordering/orderCtrl.js"></script>
+	<script type="text/javascript" src="store/ordering/orderDetailsCtrl.js"></script>
+	<script type="text/javascript" src="store/ordering/orderHistoryCtrl.js"></script>
+	<script type="text/javascript" src="store/crm/customerCtrl.js"></script>
+	<script type="text/javascript" src="store/crm/supplierCtrl.js"></script>
+	<script type="text/javascript" src="store/crm/organizationCtrl.js"></script>
+	<script type="text/javascript" src="store/crm/contactCtrl.js"></script>
+	<script type="text/javascript" src="store/notification/contactNotificationCtrl.js"></script>
+	<script type="text/javascript" src="store/notification/productNotificationCtrl.js"></script>
+	<script type="text/javascript" src="store/notification/supplierNotificationCtrl.js"></script>
+	<script type="text/javascript" src="store/setting/categoriesCtrl.js"></script> -->
+</head>
+
+<body>
+<div class="" ng-controller="storeAppCtrl" ng-if="isLoading">
+    <ui-header  ui-application="uiAppliaction"  ui-message="uiMessage" ui-notification="uiNotification" ui-user="uiUser"></ui-header>
+     <div ui-view=""></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,408 @@
+
+************************************************************
+		Sat Apr 01 08:04:06 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUser sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUser
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+
+************************************************************
+		Sat Apr 01 08:16:35 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUser sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUser
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+
+************************************************************
+		Sat Apr 01 08:21:01 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUser sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUser
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo

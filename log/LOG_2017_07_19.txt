@@ -1,0 +1,1456 @@
+
+************************************************************
+		Wed Jul 19 00:03:51 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:789)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:761)
+	at org.brijframework.db.builder.DataBuilder.margeRelFromMap(DataBuilder.java:900)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:848)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:817)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:570)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:728)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:195)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Wed Jul 19 00:06:58 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 00:11:44 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 00:16:27 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 00:19:32 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 00:20:40 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 00:26:45 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 04:19:38 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:827)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:799)
+	at org.brijframework.db.builder.DataBuilder.margeRelFromMap(DataBuilder.java:789)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:886)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:855)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:601)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:728)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:195)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Wed Jul 19 04:24:04 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:828)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:800)
+	at org.brijframework.db.builder.DataBuilder.margeRelFromMap(DataBuilder.java:789)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:887)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:856)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:601)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:728)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:195)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Wed Jul 19 04:27:43 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 04:35:59 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 04:48:23 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 04:50:59 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 04:56:20 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 05:07:40 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalArgumentException: Can not set org.brijframework.store.inventory.EOCountFreq field org.brijframework.store.inventory.EOIngrCountFreq.eoCountFreq to java.lang.Integer
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.util.reflect.InstanceUtil.setFieldVal(InstanceUtil.java:384)
+	at org.brijframework.util.reflect.InstanceUtil.getInstance(InstanceUtil.java:301)
+	at org.brijframework.util.reflect.InstanceUtil.getInstance(InstanceUtil.java:315)
+	at org.brijframework.util.collection.ConvertionUtil.castObjectByField(ConvertionUtil.java:1200)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:174)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.db.builder.DataBuilder.setProperty(DataBuilder.java:180)
+	at org.brijframework.db.builder.DataBuilder.setProperties(DataBuilder.java:262)
+	at org.brijframework.db.builder.DataBuilder.getBuilder(DataBuilder.java:80)
+	at org.brijframework.db.builder.DataBuilder.margeRelFromMap(DataBuilder.java:790)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:892)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:861)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:603)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:728)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:195)
+
+
+************************************************************
+		Wed Jul 19 05:21:09 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalArgumentException: Can not set org.brijframework.store.inventory.EOCountFreq field org.brijframework.store.inventory.EOIngrCountFreq.eoCountFreq to java.lang.Integer
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.lang.reflect.Field.set(Field.java:758)
+	at org.brijframework.util.reflect.InstanceUtil.setFieldVal(InstanceUtil.java:384)
+	at org.brijframework.util.reflect.InstanceUtil.getInstance(InstanceUtil.java:301)
+	at org.brijframework.util.reflect.InstanceUtil.getInstance(InstanceUtil.java:315)
+	at org.brijframework.util.collection.ConvertionUtil.castObjectByField(ConvertionUtil.java:1200)
+	at org.brijframework.base.accessor.PropertyAccessor.setField(PropertyAccessor.java:174)
+	at org.brijframework.base.accessor.PropertyAccessor.setter(PropertyAccessor.java:108)
+	at org.brijframework.base.accessor.PropertyAccessor.setProperty(PropertyAccessor.java:51)
+	at org.brijframework.db.builder.DataBuilder.setProperty(DataBuilder.java:175)
+	at org.brijframework.db.builder.DataBuilder.setProperties(DataBuilder.java:265)
+	at org.brijframework.db.builder.DataBuilder.getBuilder(DataBuilder.java:80)
+	at org.brijframework.db.builder.DataBuilder.margeRelFromMap(DataBuilder.java:793)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:895)
+	at org.brijframework.db.builder.DataBuilder.relObject(DataBuilder.java:864)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:606)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:728)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:195)
+
+
+************************************************************
+		Wed Jul 19 05:37:20 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 16:10:54 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Wed Jul 19 16:13:59 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID

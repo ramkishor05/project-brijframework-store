@@ -1,0 +1,1175 @@
+
+************************************************************
+		Thu Jul 20 03:20:03 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 03:23:22 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :meta data not found for eoIngrArray
+
+************************************************************
+		Thu Jul 20 03:25:19 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :meta data not found for eoIngrArray
+
+************************************************************
+		Thu Jul 20 03:25:51 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 03:27:28 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 03:29:10 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 03:31:24 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteMain isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOInvApp isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnitGroup isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustConcept isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOSiteDetail isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustomer isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustUser isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOCustRole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKCountFreq isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EOLKUnit isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :EORole isGlobel=true
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG WARN-------------- x ----------------------------x--------------------------
+WARN : Allready ClassID Exist Replace With Old
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp O  WHERE  O.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 03:37:39 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 03:58:44 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Thu Jul 20 04:00:39 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Thu Jul 20 04:03:36 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Thu Jul 20 04:07:39 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 04:16:38 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp AND  O.eoIngrCountFreqArray = :eoIngrCountFreqArray AND  O.serialVersionUID = :serialVersionUID AND  O.eoInvApp = :eoInvApp AND  O.eoCategory = :eoCategory AND  O.eoIngrLocationArray = :eoIngrLocationArray
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.QueryException: could not resolve property: serialVersionUID of: org.brijframework.store.inventory.EOIngr [FROM org.brijframework.store.inventory.EOIngr O  WHERE  O.eoInvApp = :eoInvApp AND  O.eoIngrCountFreqArray = :eoIngrCountFreqArray AND  O.serialVersionUID = :serialVersionUID AND  O.eoInvApp = :eoInvApp AND  O.eoCategory = :eoCategory AND  O.eoIngrLocationArray = :eoIngrLocationArray]
+	at org.hibernate.QueryException.generateQueryException(QueryException.java:137)
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:120)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:234)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:131)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:93)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:167)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1836)
+	at org.brijframework.db.hibernate.HBManager.findCollection(HBManager.java:445)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:474)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:498)
+	at org.brijframework.db.builder.DataBuilder.fetchToRel(DataBuilder.java:818)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:202)
+Caused by: org.hibernate.QueryException: could not resolve property: serialVersionUID of: org.brijframework.store.inventory.EOIngr
+	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:83)
+	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:77)
+	at org.hibernate.persister.entity.AbstractEntityPersister.toType(AbstractEntityPersister.java:1978)
+	at org.hibernate.hql.internal.ast.tree.FromElementType.getPropertyType(FromElementType.java:367)
+	at org.hibernate.hql.internal.ast.tree.FromElement.getPropertyType(FromElement.java:500)
+	at org.hibernate.hql.internal.ast.tree.DotNode.getDataType(DotNode.java:671)
+	at org.hibernate.hql.internal.ast.tree.DotNode.prepareLhs(DotNode.java:275)
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolve(DotNode.java:219)
+	at org.hibernate.hql.internal.ast.tree.FromReferenceNode.resolve(FromReferenceNode.java:126)
+	at org.hibernate.hql.internal.ast.tree.FromReferenceNode.resolve(FromReferenceNode.java:121)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.resolve(HqlSqlWalker.java:959)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1267)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4686)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4156)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2104)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2032)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2029)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2029)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2029)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:796)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:597)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:301)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:249)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:206)
+	... 12 more
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp AND  O.eoIngrCountFreqArray = :eoIngrCountFreqArray AND  O.serialVersionUID = :serialVersionUID AND  O.eoInvApp = :eoInvApp AND  O.eoCategory = :eoCategory AND  O.eoIngrLocationArray = :eoIngrLocationArray
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.QueryException: could not resolve property: serialVersionUID of: org.brijframework.store.inventory.EOIngr [FROM org.brijframework.store.inventory.EOIngr O  WHERE  O.eoInvApp = :eoInvApp AND  O.eoIngrCountFreqArray = :eoIngrCountFreqArray AND  O.serialVersionUID = :serialVersionUID AND  O.eoInvApp = :eoInvApp AND  O.eoCategory = :eoCategory AND  O.eoIngrLocationArray = :eoIngrLocationArray]
+	at org.hibernate.QueryException.generateQueryException(QueryException.java:137)
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:120)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:234)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:131)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:93)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:167)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1836)
+	at org.brijframework.db.hibernate.HBManager.findCollection(HBManager.java:445)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:474)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:498)
+	at org.brijframework.db.builder.DataBuilder.fetchToRel(DataBuilder.java:818)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:202)
+Caused by: org.hibernate.QueryException: could not resolve property: serialVersionUID of: org.brijframework.store.inventory.EOIngr
+	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:83)
+	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:77)
+	at org.hibernate.persister.entity.AbstractEntityPersister.toType(AbstractEntityPersister.java:1978)
+	at org.hibernate.hql.internal.ast.tree.FromElementType.getPropertyType(FromElementType.java:367)
+	at org.hibernate.hql.internal.ast.tree.FromElement.getPropertyType(FromElement.java:500)
+	at org.hibernate.hql.internal.ast.tree.DotNode.getDataType(DotNode.java:671)
+	at org.hibernate.hql.internal.ast.tree.DotNode.prepareLhs(DotNode.java:275)
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolve(DotNode.java:219)
+	at org.hibernate.hql.internal.ast.tree.FromReferenceNode.resolve(FromReferenceNode.java:126)
+	at org.hibernate.hql.internal.ast.tree.FromReferenceNode.resolve(FromReferenceNode.java:121)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.resolve(HqlSqlWalker.java:959)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1267)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4686)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.comparisonExpr(HqlSqlBaseWalker.java:4156)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2104)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2032)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2029)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2029)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.logicalExpr(HqlSqlBaseWalker.java:2029)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.whereClause(HqlSqlBaseWalker.java:796)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:597)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:301)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:249)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:206)
+	... 12 more
+
+
+************************************************************
+		Thu Jul 20 04:20:24 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp AND  O.unitCost = :unitCost AND  O.idenNo = :idenNo AND  O.name = :name AND  O.isActive = :isActive AND  O.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr O  WHERE  O.eoInvApp = :eoInvApp AND  O.unitCost = :unitCost AND  O.idenNo = :idenNo AND  O.name = :name AND  O.isActive = :isActive AND  O.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 04:24:24 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 04:35:55 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 04:56:25 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 04:59:13 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:01:26 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:02:53 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:07:33 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:09:40 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:11:47 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:18:42 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+
+************************************************************
+		Thu Jul 20 05:20:30 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:23:20 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:24:29 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 05:34:29 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 06:06:25 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+
+************************************************************
+		Thu Jul 20 06:07:16 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 06:26:11 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.MappingException: Unknown entity: java.util.HashMap
+	at org.hibernate.internal.SessionFactoryImpl.getEntityPersister(SessionFactoryImpl.java:1096)
+	at org.hibernate.internal.SessionImpl.getEntityPersister(SessionImpl.java:1479)
+	at org.hibernate.event.internal.DefaultDeleteEventListener.onDelete(DefaultDeleteEventListener.java:99)
+	at org.hibernate.event.internal.DefaultDeleteEventListener.onDelete(DefaultDeleteEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireDelete(SessionImpl.java:956)
+	at org.hibernate.internal.SessionImpl.delete(SessionImpl.java:896)
+	at org.brijframework.db.hibernate.HBManager.deleteObject(HBManager.java:230)
+	at org.brijframework.db.builder.DataBuilder.deleteToRel(DataBuilder.java:806)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:202)
+
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.MappingException: Unknown entity: java.util.HashMap
+	at org.hibernate.internal.SessionFactoryImpl.getEntityPersister(SessionFactoryImpl.java:1096)
+	at org.hibernate.internal.SessionImpl.getEntityPersister(SessionImpl.java:1479)
+	at org.hibernate.event.internal.DefaultDeleteEventListener.onDelete(DefaultDeleteEventListener.java:99)
+	at org.hibernate.event.internal.DefaultDeleteEventListener.onDelete(DefaultDeleteEventListener.java:73)
+	at org.hibernate.internal.SessionImpl.fireDelete(SessionImpl.java:956)
+	at org.hibernate.internal.SessionImpl.delete(SessionImpl.java:896)
+	at org.brijframework.db.hibernate.HBManager.deleteObject(HBManager.java:230)
+	at org.brijframework.db.builder.DataBuilder.deleteToRel(DataBuilder.java:806)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:202)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 06:29:14 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3400)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3630)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:114)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultAutoFlushEventListener.onAutoFlush(DefaultAutoFlushEventListener.java:67)
+	at org.hibernate.internal.SessionImpl.autoFlushIfRequired(SessionImpl.java:1227)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1293)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.brijframework.db.hibernate.HBManager.findCollection(HBManager.java:452)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:474)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:498)
+	at org.brijframework.db.builder.DataBuilder.fetchToRel(DataBuilder.java:850)
+	at org.brijframework.db.builder.DataBuilder.deleteToRel(DataBuilder.java:811)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:202)
+Caused by: org.postgresql.util.PSQLException: ERROR: update or delete on table "eoingr" violates foreign key constraint "fk_fk6kbadqid0g45vsy9i7ncmtr" on table "eoingrcountfreq"
+  Detail: Key (uniqueid)=(359) is still referenced from table "eoingrcountfreq".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 17 more
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp AND  e.unitCost = :unitCost AND  e.idenNo = :idenNo AND  e.name = :name AND  e.isActive = :isActive AND  e.uniqueID = :uniqueID
+
+************************************************************
+		Thu Jul 20 06:39:51 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 06:41:54 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 06:48:17 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 06:54:17 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 06:57:10 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 07:01:50 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.PropertyValueException: not-null property references a null or transient value : org.brijframework.store.inventory.EOIngr.eoCategory
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:106)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:132)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.makeEntityManaged(AbstractEntityInsertAction.java:141)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:203)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:168)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:342)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:138)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:715)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:707)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:702)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:212)
+	at org.brijframework.db.builder.DataBuilder.addToRel(DataBuilder.java:794)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:210)
+
+
+************************************************************
+		Thu Jul 20 07:02:16 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.PropertyValueException: not-null property references a null or transient value : org.brijframework.store.inventory.EOIngr.eoCategory
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:106)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:132)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.makeEntityManaged(AbstractEntityInsertAction.java:141)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:203)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:168)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:342)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:138)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:715)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:707)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:702)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:212)
+	at org.brijframework.db.builder.DataBuilder.addToRel(DataBuilder.java:794)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:210)
+
+
+************************************************************
+		Thu Jul 20 07:08:09 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp
+
+************************************************************
+		Thu Jul 20 07:09:02 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.eoInvApp = :eoInvApp

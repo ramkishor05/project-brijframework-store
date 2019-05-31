@@ -1,0 +1,110 @@
+[
+	{
+		"id": "owner_purchese_app",
+		"name": "owner_purchese_app",
+		"label": "owner_purchese_app",
+		"url": "/home",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"menuItemIDArray": [
+			"owner_purchese_deshboard",
+			"owner_purchese_main",
+			"owner_purchese_production",
+			"owner_purchese_notification",
+			"owner_purchese_setting"
+		]
+	},
+	{
+		"id": "owner_purchese_deshboard",
+		"name": "deshboard panel",
+		"label": "Deshboard",
+		"url": "owner/purchese/dashboard",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "sales and purchese deshboard page"
+	},
+	{
+		"id": "owner_purchese_main",
+		"name": "purchese panel",
+		"label": "Sale And Purchese",
+		"url": "owner/purchese/main",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "sales and purchese page"
+	},
+	{
+		"id": "owner_purchese_production",
+		"name": "Product panel",
+		"label": "Product",
+		"url": "owner/purchese/product",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": " Product page"
+	},
+	{
+		"id": "owner_purchese_notification",
+		"name": "notification panel",
+		"label": "notification",
+		"url": "owner/purchese/notification",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "notification page"
+	},
+	{
+		"id": "owner_purchese_setting",
+		"name": "Setting panel",
+		"label": "Setting",
+		"url": "owner/purchese/setting",
+		"customSheet": {
+			"label": "color:#00008B",
+			"bigIcon": "color:black",
+			"smalIcon": "color:black"
+		},
+		"customClass": {
+			"bigIcon": "fa fa-home fa-4x",
+			"smalIcon": "fa fa-home",
+			"link": ""
+		},
+		"discription": "Setting page"
+	}
+]

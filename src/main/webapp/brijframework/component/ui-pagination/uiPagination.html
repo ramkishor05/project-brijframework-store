@@ -1,0 +1,28 @@
+<div ng-if="rowArray.length > pageSize"
+	class="{{customClass}}"
+	ng-class="{'table-action-footer':showTableFooter}">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="btn-toolbar pull-right" role="toolbar">
+				<div class="btn-group">
+					<button id="firstBtn" class="btn btn-xs pagging-btn"
+						ng-click="firstPage()" ng-disabled="currentPage == 0">
+						{{'First'}}</button>
+					<button id="prevBtn" class="btn btn-xs pagging-btn"
+						ng-disabled="currentPage == 0" ng-click="prevPage()">
+						{{'Previous' }}</button>
+					<button id="labelBtn"
+						class="btn btn-xs pagging-btn pagging-btn-bg-white"
+						disabled="disabled">
+						{{currentPage+1}}/{{numberOfPages()}}</button>
+					<button id="nextBtn" class="btn btn-xs pagging-btn"
+						ng-disabled="isLastPage()" ng-click="nextPage()">
+						{{'Next'}}</button>
+					<button id="lastBtn" class="btn btn-xs pagging-btn"
+						ng-click="lastPage()" ng-disabled="isLastPage()">
+						{{'Last'}}</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

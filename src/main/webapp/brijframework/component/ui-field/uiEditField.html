@@ -1,0 +1,61 @@
+<div  ng-switch="type">
+	<div ng-switch-when="String">
+	    <div ng-switch="uitype">
+			<div  ng-switch-when="text">
+			 	 <div  ng-dblclick="isEditor()">
+				  	<label class="w3-label w3-validate" for="{{name}}" ng-show="isEdit">{{label}}</label>
+				  	 <p ng-show="!isEdit">{{ngModel}}</p>
+				  </div>
+				  <input type="{{uitype}}"   ng-show="isEdit" class="w3-input w3-border" name="{{name}}" id="{{id}}" placeholder={{placeholder}} ng-model="ngModel"  ng-change="change(name,ngModel)">
+			</div>
+			<div  ng-switch-when="password">
+			     <div  ng-dblclick="isEditor()">
+			       <label class="w3-label w3-validate" for="{{name}}" ng-show="isEdit">{{label}}</label>
+			        <p ng-show="!isEdit">{{ngModel}}</p>
+			       </div>
+			      <input type="{{uitype}}"  ng-show="isEdit" class="w3-input w3-border" name="{{name}}" id="{{id}}" placeholder={{placeholder}} ng-model="ngModel"  ng-change="change(name,ngModel)">
+			</div>
+			<div  ng-switch-when="email">
+			 	 <div  ng-dblclick="isEditor()">
+				    <label class="w3-label w3-validate" for="{{name}}" ng-show="isEdit">{{label}}</label>
+				    <p ng-show="!isEdit">{{ngModel}}</p>
+				  </div>
+				  <input type="{{uitype}}"  ng-show="isEdit" class="w3-input w3-border" name="{{name}}" id="{{id}}" placeholder={{placeholder}} ng-model="ngModel"  ng-change="change(name,ngModel)">
+			</div>
+	   </div>
+	</div>
+	<div ng-switch-when="Number">
+	 	  <div  ng-dblclick="isEditor()">
+		  	<label class="w3-label w3-validate" for="{{name}}" ng-show="isEdit">{{label}}</label>
+		 	 <p ng-show="!isEdit">{{ngModel}}</p>
+		  </div>
+		  <input type="{{type}}"  ng-show="isEdit" class="w3-input w3-border" name="{{name}}" id="{{id}}" placeholder={{placeholder}} ng-model="ngModel"  ng-change="change(name,ngModel)">
+	</div>
+	<div ng-switch-when="Boolean">
+		    <div ng-switch="uitype">
+			 <div  ng-switch-when="checkbox" >
+			  	 <div  ng-dblclick="isEditor()">
+			       <label class="w3-validate" for="{{name}}" ng-show="isEdit">{{label}}</label>
+			       <p ng-show="!isEdit">{{ngModel}}</p>
+			    </div>
+				 <input type="{{uitype}}"  ng-show="isEdit" class="w3-check" name="{{name}}" id="{{id}}" placeholder={{placeholder}} ng-model="ngModel"  ng-change="change(name,ngModel)">
+		    </div>
+			<div  ng-switch-when="radio" >
+			 	 <div  ng-dblclick="isEditor()">
+			       <label class="w3-validate" for="{{name}}" ng-show="isEdit">{{label}}</label>
+			       <p ng-show="!isEdit">{{ngModel}}</p>
+			     </div>
+			     <input type="{{uitype}}"  ng-show="isEdit" class="w3-radio" name="{{name}}" id="{{id}}" placeholder={{placeholder}} ng-model="ngModel"  ng-change="change(name,ngModel)">
+			</div>
+			
+			<div ng-switch-when="switch" >
+			  <div ng-dblclick="isEditor()">
+			     <label class="" for="{{name}}"  ng-show="isEdit">{{label}}</label>
+			     <p ng-show="!isEdit">{{ngModel}}</p>
+			   </div>
+			   <md-switch aria-label="Switch 2" name={{name}} ng-show="isEdit" ng-model="ngModel"  ng-change="change(name,ngModel)">
+              </md-switch>
+			</div>
+		</div>
+	</div>
+</div>

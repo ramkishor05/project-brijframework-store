@@ -1,0 +1,18 @@
+[
+	{
+		"classID": "EOLKUnitConversion",
+		"classPath": "org.brijframework.lookup.EOLKUnitConversion",
+		"typeID": "EOCLASS",
+		"isSingleton": true,
+		"isPrototype": false,
+		"properties": [
+			"typeID",
+			"baseQnt",
+			"rptQnt"
+		],
+		"relationship":[
+		 "eoBaseUnit",
+		 "eoRptUnit"
+		]
+	}
+]

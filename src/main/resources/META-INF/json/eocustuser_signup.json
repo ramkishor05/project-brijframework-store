@@ -1,0 +1,20 @@
+{
+  "actionMap": {
+    "requestID": "UserControl_signup"
+  },
+  "headerMap": {
+      "sessionID": 4699281368196808
+  },
+  "parameterMap": {
+    "eoCustUser": {
+      "username": "ram@mail.com",
+      "password": "1234"
+    },
+    "eoCustomer": {
+      "firstName": "ram"
+    },
+    "eoApp": {
+      "uniqueID": 8
+    }
+  }
+}

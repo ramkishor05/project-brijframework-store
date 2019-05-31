@@ -1,0 +1,9 @@
+{
+  "actionMap": {
+    "requestID": "UserController_login"
+  },
+  "parameterMap": {
+      "username": "ram@mail.com",
+      "password": "1234"
+  }
+}

@@ -1,0 +1,32 @@
+<div class="zrpt_box_content clearfix">
+	<div class="header_wrap">
+			<div class="col-md-6">Count Frequency</div>
+			<div class="text-right col-md-6">
+			</div>
+		<div class="seperator_sky"></div>
+	</div>
+	<div class="schedule_sumry_wrapper">
+		<h5 class="no-margin padding-bottom-20 gray col-md-6 no-padding">Setup
+			the count frequency of your ingredients & preps.</h5>
+		<div class="site_reports_wrapper col-md-12 margin-bottom-0">
+			<div class="col-md-3" ng-repeat="cntFreq in global.countFreqList | orderBy:'displayOrder'">
+				<div class="category_wrap" ng-class="{'active':cntFreq.isActive}">
+					<h5 translate="" class="padding-top-20 font-20" 
+						ng-if="!cntFreq.isEdit" ng-dblclick="isEdit(cntFreq)">
+						<span>{{cntFreq.name}}</span>
+					</h5>
+					<div class="col-md-6 col-md-offset-3 padding-top-12"
+						ng-if="cntFreq.isEdit">
+						<input type="text" placeholder="Enter Period"
+							class="Monthly-cust-input" ng-model="cntFreq.name" ng-blur="updateObject(cntFreq)">
+					</div>
+					<div class="checkbox-custom-wrap">
+						<input class="radio-custom" value="ONE_TIME" type="checkbox"
+							ng-model="cntFreq.isActive" ng-init="isEdit(cntFreq,'isActive')"> <label
+							class="radio-custom-label"> </label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

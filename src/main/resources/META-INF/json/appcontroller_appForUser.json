@@ -1,0 +1,12 @@
+{
+  "actionMap": {
+    "requestID": "AppController_userSeletedApp"
+  },
+  "headerMap": {
+      "sessionID": 8685460221971821
+  },
+  "parameterMap": {
+      "username": "ram@mail.com",
+      "password": "1234"
+  }
+}

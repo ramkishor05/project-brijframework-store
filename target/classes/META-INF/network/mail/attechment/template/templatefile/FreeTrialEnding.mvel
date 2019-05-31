@@ -1,0 +1,39 @@
+
+<style>
+table {border-collapse: collapse;border: 1px solid black;}
+td, th {border-collapse: collapse; border: 0px;}
+p{
+   margin-left: 10px;margin-right: 10px;padding-left: 10px
+}
+</style>
+<table class="table table-responsive"  style = "padding-top: 0px;margin-left: 150px;padding-left: 20px;border: 2px solid #3498DB;width:450px;border-top-width: 1px">
+ 	 <tr>
+	     <td colspan="2">
+	       <img alt="" src="@{custDetail.get('appLogo')}">
+	     </td>
+     </tr>
+     <tr>
+      <td colspan="2">
+       <p>
+         Hi @{custDetail.get('firstName')},
+       <p>  
+       Your free trail of @{custDetail.get('appName')}  is ending soon. When your free trial ends your app will be deactivated automatically. 
+		</p>
+		<p>
+		<b>If you like the convenience and simplicity of scheduling your employees with Zip Schedules, please update your account now.</b>
+		</p>
+		<p>
+		We hope you had a chance to experience how with Zip Schedules:
+		<ul>
+			<li>Your employees will can receiving their schedule automatically.</li>
+			<li>You and your team can communicate schedule changes quickly and easily through email, the web, or our free mobile apps.</li>
+			<li>Too much other good stuff to mention.</li>
+        </ul>
+		</p>
+		<p>
+		   PS. If there is something that is making you hesitate &#x2D; trial extension,  price, a feature you are looking for, or anything, please email me. 
+        </p>
+	</td>  
+	</tr>
+	
+ </table>

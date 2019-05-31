@@ -1,0 +1,10 @@
+<div class="content-header">
+    <div class="leftside-content-header" ng-init="">
+        <ul class="breadcrumbs">
+            <li ng-repeat="breadcrumb in breadcrumbArray">
+            <i class="{{breadcrumb.iconClass}}" ng-if="$index==0" aria-hidden="true"> </i>
+            <a href="#"  ng-click="changeLoction(breadcrumb)">{{breadcrumb.label}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+  <div ng-switch="metaData.type">
+        <div  ng-switch-when="primary">
+			<div class="modal-header  modal-primary">
+			     <button type="button" class="close" aria-label="Close"  ng-click="cancel()"><span aria-hidden="true">&times;</span></button>
+			     <h4 class="modal-title" id="modal-success-label" ><i class="fa fa-check" ></i>{{headerLabel}}</h4>
+			</div>
+			 <div class="modal-body" id="modal-body">
+			       <div style="padding:10px">
+				      {{modalMap.message}}
+			     </div>
+			</div>
+			<div class="modal-footer">
+			    <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+			    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+			</div>  
+		</div>  
+		<div  ng-switch-when="success">
+			<div class="modal-header state modal-success">
+			     <button type="button" class="close" aria-label="Close"  ng-click="cancel()">
+			     <span aria-hidden="true">&times;</span></button>
+			     <h4 class="modal-title" id="modal-success-label" ><i class="fa fa-check" ></i>{{headerLabel}}</h4>
+			</div>
+			 <div class="modal-body" id="modal-body">
+			       <div style="padding:10px">
+				      {{modalMap.message}}
+			     </div>
+			</div>
+			<div class="modal-footer">
+			    <button class="btn btn-success" type="button" ng-click="ok()">OK</button>
+			    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+			</div>  
+		</div>
+		  
+		<div  ng-switch-when="info">
+        	<div class="modal-header state modal-info">
+                <button type="button" class="close" aria-label="Close"  ng-click="cancel()">
+                <span aria-hidden="true">&times;</span></button>
+    			<h4 class="modal-title" id="modal-info-label" >
+    			<i class="fa fa-check" ></i>{{headerLabel}}</h4>
+            </div>
+             <div class="modal-body">
+                 {{modalMap.message}}
+            </div>
+            <div class="modal-footer">
+                 <button class="btn btn-info" type="button" ng-click="ok()">OK</button>
+			  <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+           </div>
+        </div>
+        
+        <div  ng-switch-when="warning">
+            <div class="modal-header state modal-warning">
+               <button type="button" class="close" aria-label="Close"  ng-click="cancel()"><span aria-hidden="true">&times;</span></button>
+               <h4 class="modal-title" id="modal-warning-label" ><i class="fa fa-check" ></i>{{headerLabel}}</h4>
+             </div>
+              <div class="modal-body">
+                  {{modalMap.message}}
+             </div>
+             <div class="modal-footer">
+                  <button class="btn btn-info" type="button" ng-click="ok()">OK</button>
+				  <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+            </div>
+       </div>
+       
+</div>
+	

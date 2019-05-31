@@ -1,0 +1,12 @@
+  
+  <div class="form-group" >
+     <label for="select2-example-tags" class="col-sm-12 control-label">{{label}}</label>
+     <div class="col-sm-12">
+		 <select id="dataListid" class="select2-example-tags w3-input w3-border form-group" name="{{name}}" id="{{id}}" 
+           placeholder={{placeholder}} ng-model="modelData" ng-change="change(name,modelData)">
+		  <option value="{{look}}" ng-repeat="look in dataArray">
+		  {{look[displayKey]}}
+		  </option>
+		</select> 
+      </div>
+  </div>

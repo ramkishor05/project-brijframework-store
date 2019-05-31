@@ -1,0 +1,28 @@
+[
+
+	{
+		"objectID": "eoLKUnitGroup_Fluid",
+		"classID": "EOLKUnitGroup",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "FLUID",
+			"shortDesc":"Fluid",
+			"longDesc":"Fluid",
+			"friendlyName":"Volume ( Fluid }"
+		}
+	}
+	,
+	{
+		"objectID": "eoLKUnitGroup_SOLID",
+		"classID": "EOLKUnitGroup",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "SOLID",
+			"shortDesc":"Solid",
+			"longDesc":"Solid",
+			"friendlyName":"Weight ( Solid }"
+		}
+	}
+]

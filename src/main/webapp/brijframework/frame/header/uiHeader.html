@@ -1,0 +1,43 @@
+<div class="page-header" ng-if="isLoading">
+	<div class="leftside-header" ng-if="uiApplication.isAppload">
+		<div class="logo" style="padding-left: 30px; padding-right: 0px">
+			<a href="#" class="on-click"> <img alt="logo"
+				style="width: 40px; height: 40px"
+				src="{{uiApplication['appLogo']}}" />
+			</a> <b>{{uiApplication['appName']}}</b>
+		</div>
+	</div>
+	<div class="rightside-header">
+		<div class="header-section" id="user-headerbox" ng-if="uiUser.isUserLogin">
+			<div class="user-header-wrap">
+				<div class="user-photo">
+					<img src="brijframework/assert/images/user-avatar.jpg" />
+				</div>
+				<div class="user-info">
+					<span class="user-name">{{uiUser['username']}}</span> <span
+						class="user-profile">{{uiUser['role']}}</span>
+				</div>
+				<i class="fa fa-plus icon-open" aria-hidden="true"></i> <i
+					class="fa fa-minus icon-close" aria-hidden="true"></i>
+			</div>
+			<div class="user-options dropdown-box">
+				<div class="drop-content basic">
+					<ul>
+					    <li>Hi</li>
+						<li ng-repeat="option in uiUser.options">
+						<a href="#" ng-click="changeLocation(option['url'])">
+						    <i class="{{option['classoption']}}" style="{{option['styleoption']}}" aria-hidden="true"></i>
+								{{option['label']}}</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-separator"></div>
+		<div class="header-section" ng-if="uiUser.isUserLogin">
+			<a href="#" data-toggle="tooltip" data-placement="left" ng-click="changeLocation(uiUser['logOut'])"
+				title="Logout"><i class="fa fa-sign-out log-out"
+				aria-hidden="true"></i></a>
+		</div>
+	</div>
+</div>

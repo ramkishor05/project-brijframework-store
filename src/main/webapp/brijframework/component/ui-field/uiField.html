@@ -1,0 +1,274 @@
+<div>
+<div ng-switch="metaData.type" >
+	<div ng-switch-when="String">
+		<div ng-switch="metaData.typeID">
+			<div ng-switch-when="TEXT">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<input type="text" class="w3-input w3-border" 
+				    name="{{metaData.name}}"
+					id="{{metaData.id}}"
+					placeholder={{metaData.placeholder}} 
+					ng-required="metaData.isRequired"
+					ng-minlength="metaData.minlength" 
+					ng-maxlength="metaData.maxlength"
+					ng-pattern="metaData.pattern"
+					ng-trim="metaData.trim"
+					ng-disabled="metaData.isDisabled"
+					ng-change="change(metaData.name,modelData)"
+					ng-model="modelData">
+			</div>
+			
+			<div ng-switch-when="PASSWORD">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<input type="password" class="w3-input w3-border"
+				    name="{{metaData.name}}"
+					id="{{metaData.id}}" 
+					placeholder={{metaData.placeholder}}
+				    ng-required="metaData.isRequired"
+					ng-minlength="metaData.minlength"
+					ng-maxlength="metaData.maxlength"
+					ng-trim="metaData.trim"
+				    ng-pattern="metaData.pattern"
+				    ng-disabled="metaData.isDisabled"
+					ng-change="change(metaData.name,modelData)"
+				    ng-model="modelData">
+				    <label for="{{metaData.name}}">{{metaData.message}} </label>
+			</div>
+			<div ng-switch-when="EMAIL">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<input type="email" class="w3-input w3-border"
+				    name="{{metaData.name}}"
+					id="{{metaData.id}}"
+				    placeholder={{metaData.placeholder}} 
+				    ng-required="metaData.isRequired"
+					ng-minlength="metaData.minlength"
+					ng-trim="metaData.trim"
+					ng-maxlength="metaData.maxlength"
+				    ng-pattern="metaData.pattern"
+				    ng-disabled="metaData.isDisabled"
+					ng-change="change(metaData.name,modelData)"
+				    ng-model="modelData">
+				    <label for="{{metaData.name}}">{{metaData.message}} </label>
+			</div>
+			
+		</div>
+	</div>
+	<div ng-switch-when="Number">
+		<div ng-switch="metaData.typeID">
+			<div ng-switch-when="NUMBER">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<input  id="{{metaData.id}}"  type="number" class="w3-input w3-border"
+					name="{{metaData.name}}"
+				    placeholder={{metaData.placeholder}}
+					ng-required="metaData.isRequired"
+					ng-minlength="metaData.minlength"
+					ng-pattern="metaData.pattern"
+					ng-trim="metaData.trim"
+					ng-disabled="metaData.isDisabled"
+					ng-maxlength="metaData.maxlength"
+					ng-change="change(metaData.name,modelData)" 
+					ng-model="modelData">
+			</div>
+			<div ng-switch-when="DECIMAL">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<input id="{{metaData.id}}" type="number" 
+				    step="step"
+					class="w3-input w3-border" 
+					name="{{metaData.name}}"
+					placeholder={{metaData.placeholder}} 
+					ng-required="metaData.isRequired"
+					ng-minlength="metaData.minlength" 
+					ng-maxlength="metaData.maxlength"
+					ng-trim="metaData.trim"
+					ng-pattern="metaData.pattern"
+					ng-disabled="metaData.isDisabled"
+					ng-change="change(metaData.name,modelData)"
+					ng-model="modelData">
+			</div>
+			<div ng-switch-when="MOBILE">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<input id="{{metaData.id}}" type="number" 
+				    step="10"
+					class="w3-input w3-border" 
+					name="{{metaData.name}}"
+					ng-pattern="metaData.pattern"
+					placeholder={{metaData.placeholder}}
+				    ng-required="metaData.isRequired"
+					ng-minlength="metaData.minlength"
+					ng-maxlength="metaData.maxlength"
+					ng-trim="metaData.trim"
+					ng-disabled="metaData.isDisabled"
+				    ng-change="change(metaData.name,modelData)"
+					ng-model="modelData">
+			</div>
+			<div ng-switch-when="PHONE">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<input type="number" step="13" class="w3-input w3-border"
+					name="{{metaData.name}}" id="{{metaData.id}}"
+				    placeholder={{metaData.placeholder}}
+					ng-required="metaData.isRequired"
+					ng-maxlength="metaData.maxlength"
+				    ng-minlength="metaData.minlength"
+				    ng-disabled="metaData.isDisabled"
+				    ng-trim="metaData.trim"
+					ng-change="change(metaData.name,modelData)"
+				    ng-model="modelData">
+			</div>
+		</div>
+	</div>
+	<div ng-switch-when="Boolean">
+		<div ng-switch="metaData.typeID">
+			<div ng-switch-when="CHECK">
+				<input type="check" class="w3-check" name="{{metaData.name}}" id="{{metaData.id}}"
+					placeholder={{metaData.placeholder}} 
+					ng-required="metaData.isRequired"
+					ng-minlength="metaData.minlength" 
+					ng-maxlength="metaData.maxlength"
+					ng-trim="metaData.trim"
+					ng-change="change(name,modelData)"
+					ng-model="modelData"> 
+					<label class="w3-validate"
+					for="{{metaData.name}}">{{metaData.label}}</label>
+			</div>
+			<div ng-switch-when="RADIO">
+				<input type="radio" class="w3-radio" name="{{metaData.name}}" id="{{metaData.id}}"
+					placeholder={{metaData.placeholder}} 
+					ng-required="isRequired"
+					ng-minlength="metaData.minlength" 
+					ng-maxlength="metaData.maxlength"
+					ng-trim="metaData.trim"
+					ng-change="change(name,modelData)"
+					ng-model="modelData"> 
+					<label class="w3-validate"
+					for="{{metaData.name}}">{{label}}</label>
+			</div>
+			<div ng-switch-when="SWITCH">
+				<label class="" for="{{metaData.name}}">{{metaData.label}}</label><br> <label
+					class="switch"> 
+					<input id="left-sidebar-collapsed"
+					 type="checkbox"
+					 ng-change="change(name,modelData)"
+					 ng-required="metaData.isRequired"
+					 ng-minlength="metaData.minlength" 
+					 ng-maxlength="metaData.maxlength"
+					 ng-disabled="metaData.isDisabled"
+					 ng-trim="metaData.trim"
+					 ng-model="modelData">
+					<span class="slider round"></span>
+				</label>
+			</div>
+		</div>
+	</div>
+	<div ng-switch-when="Date">
+		<div ng-switch="metaData.typeID">
+			<div ng-switch-when="DATE">
+				<label class="w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<p class="input-group">
+					<input type="text" class="form-control" 
+						ng-minlength="metaData.minlength" 
+					    ng-maxlength="metaData.maxlength"
+						popup-placement="auto top-right"
+						uib-datepicker-popup 
+						is-open="popup2.opened"
+						datepicker-options="dateOptions"
+						alt-input-formats="altInputFormats"
+					    ng-required="metaData.isRequired"
+					    ng-disabled="metaData.isDisabled"
+						close-text="Close" 
+						ng-change="changeDate(name,modelData)"
+						ng-model="modelData" /> <span class="input-group-btn">
+						<button type="button" class="btn btn-default" ng-click="open2()">
+							<i class="fa fa-calendar"></i>
+						</button>
+					</span>
+				</p>
+			</div>
+			<div ng-switch-when="TIME">
+				<label class="w3-validate" for="{{metaData.name}}">{{metaData.label}}</label>
+				<p class="input-group">
+					<input type="text" class="form-control"
+					    ng-required="metaData.isRequired"
+						ng-minlength="metaData.minlength" 
+					    ng-maxlength="metaData.maxlength" 
+					    ng-disabled="metaData.isDisabled"
+					    ng-trim="metaData.trim"
+						uib-datepicker-popup 
+						is-open="popup2.opened"
+						datepicker-options="dateOptions"
+					    popup-placement="auto top-left"
+						alt-input-formats="altInputFormats"
+						close-text="Close"
+						ng-change="changeDate(name,modelData)"
+						ng-model="modelData" /> <span class="input-group-btn">
+						<button type="button" class="btn btn-default" ng-click="open2()">
+							<i class="fa fa-calendar"></i>
+						</button>
+					</span>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div ng-switch-when="List">
+		<div ng-switch="metaData.typeID">
+			<div ng-switch-when="MULTIREL">
+				<!-- <label class="w3-label w3-validate" for="{{metaData.name}}">{{metaData.label}}</label> -->
+				<ui-lookup name="{{metaData.name}}" id="{{metaData.id}}"
+				    placeholder={{metaData.placeholder}}
+					ng-change="change(metaData.name,modelData)" 
+					ng-model="modelData" 
+					ng-disabled="metaData.isDisabled"
+					is-multiple="metaData.isMultiple"> </ui-lookup>
+			</div>
+			<div ng-switch-when="MULTILOOKUP">
+				<div class="form-group">
+					<label for="select2-example-multiple"
+						class="col-sm-2 control-label">Multiple</label>
+					<div class="col-sm-10">
+						<select name="country" id="select2-example-multiple"
+							class="form-control" multiple="metaData.multiple" style="width: 100%">
+							<optgroup label="AMERICA">
+								<option value="AI" label="Anguilla">Anguilla</option>
+							</optgroup>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div ng-switch-when="Object">
+		<div ng-switch="metaData.typeID">
+			<div ng-switch-when="REL">
+				<ui-lookup server="web/request/service" 
+				id="{{metaData.id}}"
+				ng-model="objectDataMap[name]"
+			    object-data-map="objectDataMap"></ui-lookup>
+			</div>
+			<div ng-switch-when="LOOKUP">
+				<label class="w3-label w3-validate" for="{{metaData.name}}">{{label}}</label>
+				<ui-lookup name="{{metaData.name}}" 
+				 id="{{metaData.id}}" 
+				 ng-disabled="metaData.isDisabled"
+				 placeholder={{metaData.placeholder}}
+				 ng-change="change(metaData.name,modelData)" 
+				 ng-model="modelData">
+				</ui-lookup>
+			</div>
+
+			<div ng-switch-when="TAG">
+				<div class="form-group">
+					<label for="select2-example-tags" class="col-sm-2 control-label">Tagging</label>
+					<div class="col-sm-10">
+						<select name="country" id="select2-example-tags"
+							class="form-control select-tag-primary" multiple="multiple"
+							style="width: 100%">
+							<optgroup label="AMERICA">
+								<option value="AI" label="Anguilla">Anguilla</option>
+							</optgroup>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>

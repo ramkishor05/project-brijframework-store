@@ -1,0 +1,9 @@
+ {
+	 "table":"META-INF/meta/datatable",
+	 "field":"META-INF/meta/component/field",
+	 "modal":"META-INF/meta/component/modal",
+	 "lookup":"META-INF/meta/component/lookup",
+	 "page":"META-INF/meta/page",
+	 "header":"META-INF/meta/header",
+	 "menu":"META-INF/meta/menu"
+ }

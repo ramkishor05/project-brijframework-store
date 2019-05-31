@@ -1,0 +1,38 @@
+<style>
+table {border-collapse: collapse;border: 1px solid black;}
+td, th {border-collapse: collapse; border: 0px;}
+p{
+   margin-left: 10px;margin-right: 10px;padding-left: 10px
+}
+</style>
+<table class="table table-responsive"  style = "padding-top: 0px;margin-left: 150px;padding-left: 20px;border: 2px solid #3498DB;width:450px;border-top-width: 1px">
+ 	 <tr>
+	     <td colspan="2">
+	       <img alt="" src="@{custDetail.get('appLogo')}">
+	     </td>
+     </tr>
+     <tr>
+      <td colspan="2">
+        <p>
+        Hi @{custDetail.get("firstName")},
+       <p>  Your free trail of @{custDetail.get('appName')} has been extended.  
+       Your sign up was about to expire so I extended it to give you more time to sign up. 
+		</p>
+		<p>
+		If you&sbquo;re on the fence about whether scheduling software is actually making a difference in your business,
+		 think about how much time you can save writing and communicating the employee schedule.
+		  Handling employee communication requests and schedule changes is no fun either. 
+		  Think about how much your employees appreciate having the ability to communicate with you,
+		   get schedule reminders, and check their schedules from anywhere (without bothering you). 
+		</p>
+		<p><b>
+		Comparatively the cost of Zip Schedules is probably a rounding error. 
+		</b>
+		</p>
+		<p>
+		Please let me know if there is any reason you are hesitating (like a feature you are looking for or a price discount that would make a difference). 
+		</p>
+	</td>  
+	</tr>
+	
+ </table>

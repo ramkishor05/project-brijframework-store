@@ -1,0 +1,116 @@
+<style>
+    .ajax-search-drop{
+        background-color: #fbfbfb;
+        border-color: #d5d5d5;
+        border-image: none;
+        border-radius: 0 0 4px 4px;
+        border-style: none solid solid;
+        border-width: 0 1px 1px;
+        -moz-box-shadow: 0 0 5px #888;
+        -webkit-box-shadow: 0 0 5px#888;
+        box-shadow: 0 0 2px #888;
+        color: #444;
+        margin-top: 0;
+        position: absolute;
+        text-decoration: none;
+        top: 100%;
+        white-space: nowrap;
+        width: 100%;
+        z-index: 1 !important;
+
+    }
+    .ajax-search-drop-inactive{
+        display:none;
+    }
+    .ajax-search-drop-active{
+        display:block;
+    }
+    .ajax-search-no-result{
+        float:left;
+        margin:0;
+        padding: 10px 0px 8px;
+    }
+
+    .ajax-search-results li{
+        display:list-item;
+        list-style: outside none none;
+    }
+    .ajax-search-results{
+
+        list-style-type: none;
+        max-height: 200px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 0;
+    }
+    .ajax-search-result{
+        background-clip: padding-box;
+        border-bottom: 1px solid #efefef;
+        margin: 0 -5px;
+        position: relative;
+        text-align: left;
+        top: 100%;
+
+    }
+    .ajax-search-results .ajax-search-result-lbl{
+        cursor: pointer;
+        margin:0;
+        padding: 10px 0px 8px;
+    }
+    .ajax-search-result:hover{
+        background: none repeat scroll 0 0 #3875d7;
+        color: #fff;
+        width:100%;
+    }
+    .text-shadow-none{
+        text-shadow:none!important;
+    }
+    .left-top-radius-5{
+        border-top-left-radius: 4px !important;
+
+    }
+    .border-top-right-radius{
+        border-top-right-radius: 4px !important;
+    }
+    .ajax-search-txt-drop-inactive{
+        border-radius:0 !important;
+    }
+    .ajax-search-txt-drop-active{
+        bborder-radius: 4px 4px 0 0 !important;
+        box-shadow: 0 0 2px #888 !important;
+        border-bottom: none !important;
+    }
+    .ajax-search .ajax-search-txt-drop-inactive input[type="search"]:focus{
+        box-shadow: 0 0 1px #999999 !important;
+    }
+
+    .ajax-search .ajax-search-txt-drop-active input[type="search"]:focus{
+        box-shadow: none !important;
+    }
+
+    .ajax-search-input{
+        border: 1px solid #d5d5d5;
+    }
+    .width-100-per{
+        width:100%;
+    }
+</style>
+<div class="ajax-search relative">
+		<div class="ajax-search-input" ng-class="{'ajax-search-txt-drop-inactive':!showAjaxSearchDrop, 'ajax-search-txt-drop-active':showAjaxSearchDrop}">
+	    	<input type="search" class="width-100-per ajax-search-txt no-border" ng-model="searchText" data-ng-change="performSearch()" placeholder="{{placeholder}}">
+	    </div>
+	    <div class="ajax-search-drop ajax-search-drop-inactive " ng-class="{'ajax-search-drop-inactive':!showAjaxSearchDrop, 'ajax-search-drop-active':showAjaxSearchDrop}">
+	    	<div ng-if="!searchResults.length" class="ajax-search-no-result">
+	    		<span class="ajax-result-match text-shadow-none padding-l-r-10">{{noDataMsg}}</span>
+	    	</div>
+	    	<div ng-if="searchResults.length">
+		    	<ul class="ajax-search-results no-margin">
+		    		<li class="ajax-search-result  text-left" ng-click="getSelectedObj(result)" ng-repeat="result in searchResults">
+		    			<div class="ajax-search-result-lbl">
+		    				<span class="ajax-result-match text-shadow-none padding-l-r-10">{{result[displayKey]}}</span>
+		    			</div>
+		    		</li>
+		    	</ul>
+	    </div>
+	</div>
+</div>

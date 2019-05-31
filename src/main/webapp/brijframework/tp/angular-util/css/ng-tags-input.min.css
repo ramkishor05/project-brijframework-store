@@ -1,0 +1,118 @@
+.ngTagsInput *, *:after, *:before {
+  -moz-box-sizing: border-box;
+}
+
+.ngTagsInput {
+  position: relative;
+}
+
+.ngTagsInput:active {
+  outline: 0px none;
+}
+
+.ngTagsInput .tags {
+  -moz-appearance: textfield;
+  background-color: -moz-field;
+  border: 1px solid #D2D2D2;
+  cursor: text;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 2px;
+  word-wrap: break-word;
+}
+
+/* .ngTagsInput .tags.focused {
+     box-shadow: 0px 0px 3px 1px rgba(5, 139, 242, 0.6);
+     outline: 0px none;
+} */
+
+.ngTagsInput .tags .tag-list {
+  list-style-type: none;
+  margin: 0px;
+  overflow: visible;
+  padding: 0px;
+}
+
+.ngTagsInput .tags .tag-item {
+  background: #cccccc;
+  border-radius: 3px;
+  border: 1px solid #ACACAC;
+  display: inline-block;
+  float: left;
+  height: 21px;
+  line-height: 1.3;
+  margin: 2px;
+  padding-left: 4px;
+}
+
+.ngTagsInput .tags .tag-item.selected {
+  background: linear-gradient(to bottom, #FEBBBB 0px, #FE9090 45%, #FF5C5C 100%) repeat scroll 0% 0% transparent;
+}
+
+.ngTagsInput .tags .tag-item span {
+  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ngTagsInput .tags .tag-item button {
+  background: none repeat scroll 0px 0px transparent;
+  border: 0px none;
+  color: #585858;
+  cursor: pointer;
+  font: 700 16px Arial, sans-serif;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.ngTagsInput .tags .tag-item button:active {
+  color: red;
+}
+
+.ngTagsInput .tags .tag-input {
+  border: 0px none;
+  float: left;
+  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 21px;
+  margin: 2px;
+  outline: 0px none;
+  padding: 0px 0px 0px 4px;
+}
+
+.ngTagsInput .autocomplete {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  padding: 8px 0px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.ngTagsInput .autocomplete .suggestion-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ngTagsInput .autocomplete .suggestion-item {
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 3px 16px;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ngTagsInput .autocomplete .suggestion-item.selected {
+  background-color: #0097CF;
+  color: #FFFFFF;
+}
+
+.ngTagsInput .autocomplete .suggestion-item em {
+  font-style: normal;
+  font-weight: 700;
+}

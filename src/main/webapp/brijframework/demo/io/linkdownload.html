@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+      function linkDownload(a, filename, content) {
+        contentType =  'data:application/octet-stream,';
+        uriContent = contentType + encodeURIComponent(content);
+        a.setAttribute('href', uriContent);
+        a.setAttribute('download', filename);
+      }
+      function download(filename, content) {
+        var a = document.createElement('a');
+        linkDownload(a, filename, content);
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+      /**
+       * writeTextFile write data to file on hard drive
+       * @param  string  filepath   Path to file on hard drive
+       * @param  sring   output     Data to be written
+       */
+      function writeTextFile(filepath, output) {
+      	var txtFile = new File(filepath);
+      	txtFile.open("w"); //
+      	txtFile.writeln(output);
+      	txtFile.close();
+      }
+
+      ////////////////////////////////////////////////////
+      /**
+       * readTextFile read data from file
+       * @param  string   filepath   Path to file on hard drive
+       * @return string              String with file data
+       */
+      function readTextFile(filepath) {
+      	var str = "";
+      	var txtFile = new File(filepath);
+      	txtFile.open("r");
+      	while (!txtFile.eof) {
+      		// read each line of text
+      		str += txtFile.readln() + "\n";
+      	}
+      	return str;
+      }
+    </script>
+   </head>
+  <body>
+    <a href="#" onclick="linkDownload(this, 'test.txt', 'Hello World!');">download</a>
+    <button onclick="download('test.xml', '<a>Hello World!</a>');">download</button>
+    <button onclick="writeTextFile('file:///D:/Development/test.txt','hi')">write file</button>
+    <button onclick="readTextFile('file:///D:/Development/test.txt')">write file</button>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+[
+  
+  {
+    "id":"FreeTrialEnding",
+    "subject":"{{subject}}",
+    "javaAdaptor":"com.altametrics.foundation.cmc.MvelMessageFormatter",
+    "mvelTempId":"FreeTrialEnding"
+  },
+  {
+    "id":"FreeTrialExtended",
+    "subject":"{{subject}}",
+    "javaAdaptor":"com.altametrics.foundation.cmc.MvelMessageFormatter",
+    "mvelTempId":"FreeTrialExtended"
+  },
+  {
+    "id":"FreeTrialExpired",
+    "subject":"{{subject}}",
+    "javaAdaptor":"com.altametrics.foundation.cmc.MvelMessageFormatter",
+    "mvelTempId":"FreeTrialExpired"
+  }
+]

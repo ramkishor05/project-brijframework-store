@@ -1,0 +1,16 @@
+[
+	{
+		"classID": "EOCustRole",
+		"classPath": "org.brijframework.hr.EOCustRole",
+		"typeID": "EOCLASS",
+		"isSingleton": true,
+		"isPrototype": false,
+		"properties": [
+			"custRoleID"
+		],
+		"relationship": [
+			"eoCustomer",
+			"eoRole"
+		]
+	}
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "classID": "EOAppMain",
+    "classPath": "org.brijframework.app.EOAppMain",
+    "typeID": "EOCLASS",
+    "isSingleton": true,
+    "isPrototype": false,
+    "properties": [
+      "appID",
+      "appName",
+      "appLogo",
+      "appURL"
+    ],
+    "relationship": [
+      "EOAppEdition",
+      "EOAppDetail",
+      "EOAppFeature"
+    ]
+  },
+  {
+    "classID": "EOAppEdition",
+    "classPath": "org.brijframework.app.EOAppEdition",
+    "typeID": "EOCLASS",
+    "isSingleton": true,
+    "isPrototype": false,
+    "properties": [
+      "description",
+      "displayOrder",
+      "monthlyRate",
+      "startPayDay",
+      "isFreeEdition"
+    ],
+    "relationship": []
+  },
+  {
+    "classID": "EOAppDetail",
+    "classPath": "org.brijframework.app.EOAppDetail",
+    "typeID": "EOCLASS",
+    "isSingleton": true,
+    "isPrototype": false,
+    "properties": [
+      "internalHost",
+      "externalHost",
+      "displayOrder",
+      "internalPort",
+      "externalPort"
+    ],
+    "relationship": []
+  },
+  {
+    "classID": "EOAppFeature",
+    "classPath": "org.brijframework.app.EOAppFeature",
+    "typeID": "EOCLASS",
+    "isSingleton": true,
+    "isPrototype": false,
+    "properties": [
+      "description",
+      "displayOrder",
+      "viewDetail"
+    ],
+    "relationship": []
+  }
+]

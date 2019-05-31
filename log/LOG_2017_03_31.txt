@@ -1,0 +1,1785 @@
+
+************************************************************
+		Fri Mar 31 05:27:06 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully added
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppMain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppDetail
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppEdition
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully added
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: org.brijframework.store.user.EORole
+	at org.hibernate.engine.internal.ForeignKeys.getEntityIdentifierIfNotUnsaved(ForeignKeys.java:294)
+	at org.hibernate.type.EntityType.getIdentifier(EntityType.java:537)
+	at org.hibernate.type.ManyToOneType.isDirty(ManyToOneType.java:311)
+	at org.hibernate.type.ManyToOneType.isDirty(ManyToOneType.java:321)
+	at org.hibernate.type.TypeHelper.findDirty(TypeHelper.java:310)
+	at org.hibernate.persister.entity.AbstractEntityPersister.findDirty(AbstractEntityPersister.java:4243)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.dirtyCheck(DefaultFlushEntityEventListener.java:546)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.isUpdateNecessary(DefaultFlushEntityEventListener.java:232)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.onFlushEntity(DefaultFlushEntityEventListener.java:159)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEntities(AbstractFlushingEventListener.java:231)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:102)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:55)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:189)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:280)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:21)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully added
+LOG INFO-------------- x ----------------------------x--------------------------
+ org.brijframework.store.app.EOAppFeature
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Class does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserInfo
+
+************************************************************
+		Fri Mar 31 06:05:26 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.util.json.JSONException: Duplicate key "displayOrder"
+	at org.brijframework.util.json.JSONObject.putOnce(JSONObject.java:1238)
+	at org.brijframework.util.json.JSONObject.<init>(JSONObject.java:140)
+	at org.brijframework.util.json.JSONTokener.nextValue(JSONTokener.java:337)
+	at org.brijframework.util.json.JSONObject.<init>(JSONObject.java:140)
+	at org.brijframework.util.json.JSONTokener.nextValue(JSONTokener.java:337)
+	at org.brijframework.util.json.JSONArray.<init>(JSONArray.java:118)
+	at org.brijframework.util.json.JSONArray.<init>(JSONArray.java:147)
+	at org.brijframework.util.parser.JSONConvertion.getJSONArrayFromJSONString(JSONConvertion.java:105)
+	at org.brijframework.util.parser.JSONConvertion.getListFromJSONArray(JSONConvertion.java:114)
+	at org.brijframework.app.resouces.ResourcesLoader.getLisFromJsonFile(ResourcesLoader.java:51)
+	at org.brijframework.app.resouces.BeanResouce.loadJsonbeans(BeanResouce.java:28)
+	at org.brijframework.util.resources.BeanResourcesUtil.loadDataBeansFromFile(BeanResourcesUtil.java:24)
+	at org.brijframework.container.BeanContainer.databeanLoader(BeanContainer.java:65)
+	at org.brijframework.container.BeanContainer.loadContainer(BeanContainer.java:45)
+	at org.brijframework.container.BeanContainer.createContainer(BeanContainer.java:29)
+	at org.brijframework.container.BeanContainer.getContainer(BeanContainer.java:35)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:74)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:19)
+
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.util.json.JSONException: Duplicate key "displayOrder"
+	at org.brijframework.util.json.JSONObject.putOnce(JSONObject.java:1238)
+	at org.brijframework.util.json.JSONObject.<init>(JSONObject.java:140)
+	at org.brijframework.util.json.JSONTokener.nextValue(JSONTokener.java:337)
+	at org.brijframework.util.json.JSONObject.<init>(JSONObject.java:140)
+	at org.brijframework.util.json.JSONTokener.nextValue(JSONTokener.java:337)
+	at org.brijframework.util.json.JSONArray.<init>(JSONArray.java:118)
+	at org.brijframework.util.json.JSONArray.<init>(JSONArray.java:147)
+	at org.brijframework.util.parser.JSONConvertion.getJSONArrayFromJSONString(JSONConvertion.java:105)
+	at org.brijframework.util.parser.JSONConvertion.getListFromJSONArray(JSONConvertion.java:114)
+	at org.brijframework.app.resouces.ResourcesLoader.getLisFromJsonFile(ResourcesLoader.java:51)
+	at org.brijframework.app.resouces.BeanResouce.loadJsonbeans(BeanResouce.java:28)
+	at org.brijframework.util.resources.BeanResourcesUtil.loadModelBeansFromFile(BeanResourcesUtil.java:53)
+	at org.brijframework.container.BeanContainer.modelbeanLoader(BeanContainer.java:80)
+	at org.brijframework.container.BeanContainer.loadContainer(BeanContainer.java:46)
+	at org.brijframework.container.BeanContainer.createContainer(BeanContainer.java:29)
+	at org.brijframework.container.BeanContainer.getContainer(BeanContainer.java:35)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:74)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:19)
+
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.util.json.JSONException: Duplicate key "displayOrder"
+	at org.brijframework.util.json.JSONObject.putOnce(JSONObject.java:1238)
+	at org.brijframework.util.json.JSONObject.<init>(JSONObject.java:140)
+	at org.brijframework.util.json.JSONTokener.nextValue(JSONTokener.java:337)
+	at org.brijframework.util.json.JSONObject.<init>(JSONObject.java:140)
+	at org.brijframework.util.json.JSONTokener.nextValue(JSONTokener.java:337)
+	at org.brijframework.util.json.JSONArray.<init>(JSONArray.java:118)
+	at org.brijframework.util.json.JSONArray.<init>(JSONArray.java:147)
+	at org.brijframework.util.parser.JSONConvertion.getJSONArrayFromJSONString(JSONConvertion.java:105)
+	at org.brijframework.util.parser.JSONConvertion.getListFromJSONArray(JSONConvertion.java:114)
+	at org.brijframework.app.resouces.ResourcesLoader.getLisFromJsonFile(ResourcesLoader.java:51)
+	at org.brijframework.app.resouces.BeanResouce.loadJsonbeans(BeanResouce.java:28)
+	at org.brijframework.util.resources.BeanResourcesUtil.loadPersistBeansFromFile(BeanResourcesUtil.java:90)
+	at org.brijframework.container.BeanContainer.persistbeanDataLoader(BeanContainer.java:95)
+	at org.brijframework.container.BeanContainer.loadContainer(BeanContainer.java:47)
+	at org.brijframework.container.BeanContainer.createContainer(BeanContainer.java:29)
+	at org.brijframework.container.BeanContainer.getContainer(BeanContainer.java:35)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:74)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:19)
+
+
+************************************************************
+		Fri Mar 31 06:08:24 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+
+************************************************************
+		Fri Mar 31 06:12:14 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+
+************************************************************
+		Fri Mar 31 06:13:44 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :class doest not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :ClassMeta does not contain
+
+************************************************************
+		Fri Mar 31 06:22:28 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+
+************************************************************
+		Fri Mar 31 06:27:50 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+
+************************************************************
+		Fri Mar 31 06:28:08 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+
+************************************************************
+		Fri Mar 31 06:31:11 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+
+************************************************************
+		Fri Mar 31 06:31:48 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+
+************************************************************
+		Fri Mar 31 06:37:49 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "startpaydate" violates not-null constraint
+  Detail: Failing row contains (9, f, Report for employee performance, sales performance, and othor , t, 12.5, null, 0, 2, 30).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 19 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:91)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "startpaydate" violates not-null constraint
+  Detail: Failing row contains (10, f, Customer relationship for employee , sales man , and othor perso..., t, 11.5, null, 0, 3, 30).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 20 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: insert or update on table "eoappmain" violates foreign key constraint "fk_65uoc2tp5k2vfu7y2r04qt0dg"
+  Detail: Key (appedition_uniqueid)=(10) is not present in table "eoappedition".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 19 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:91)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "startpaydate" violates not-null constraint
+  Detail: Failing row contains (14, f, Report for employee performance, sales performance, and othor , t, 12.5, null, 0, 2, 30).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 20 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: insert or update on table "eoappmain" violates foreign key constraint "fk_65uoc2tp5k2vfu7y2r04qt0dg"
+  Detail: Key (appedition_uniqueid)=(14) is not present in table "eoappedition".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 19 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "startpaydate" violates not-null constraint
+  Detail: Failing row contains (19, f, Sales for any product, sales details, and othor , t, 15.5, null, 0, 1, 30).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 19 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:91)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "startpaydate" violates not-null constraint
+  Detail: Failing row contains (20, f, Sales for any product, sales details, and othor , t, 15.5, null, 0, 1, 30).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 20 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: insert or update on table "eoappmain" violates foreign key constraint "fk_65uoc2tp5k2vfu7y2r04qt0dg"
+  Detail: Key (appedition_uniqueid)=(20) is not present in table "eoappedition".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 19 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "startpaydate" violates not-null constraint
+  Detail: Failing row contains (25, f, Customer relationship for employee , sales man , and othor perso..., t, 11.5, null, 0, 3, 30).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2310)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2023)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:217)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:421)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:137)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 19 more
+
+LOG WARN-------------- x ----------------------------x--------------------------
+could not extract ResultSet
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully added
+
+************************************************************
+		Fri Mar 31 06:43:19 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:91)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:91)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:91)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: org.brijframework.store.user.EORole
+	at org.hibernate.engine.internal.ForeignKeys.getEntityIdentifierIfNotUnsaved(ForeignKeys.java:294)
+	at org.hibernate.type.EntityType.getIdentifier(EntityType.java:537)
+	at org.hibernate.type.ManyToOneType.isDirty(ManyToOneType.java:311)
+	at org.hibernate.type.ManyToOneType.isDirty(ManyToOneType.java:321)
+	at org.hibernate.type.TypeHelper.findDirty(TypeHelper.java:310)
+	at org.hibernate.persister.entity.AbstractEntityPersister.findDirty(AbstractEntityPersister.java:4243)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.dirtyCheck(DefaultFlushEntityEventListener.java:546)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.isUpdateNecessary(DefaultFlushEntityEventListener.java:232)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.onFlushEntity(DefaultFlushEntityEventListener.java:159)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEntities(AbstractFlushingEventListener.java:231)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:102)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:55)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.addObject(HBManager.java:190)
+	at org.brijframework.container.DataContainer.addObject(DataContainer.java:286)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:121)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+	at org.hibernate.jdbc.Expectations$BasicExpectation.checkBatched(Expectations.java:81)
+	at org.hibernate.jdbc.Expectations$BasicExpectation.verifyOutcome(Expectations.java:73)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3281)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3183)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3525)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:159)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at org.brijframework.db.hibernate.HBManager.updateObject(HBManager.java:226)
+	at org.brijframework.container.DataContainer.updateObject(DataContainer.java:331)
+	at org.brijframework.container.DataContainer.getBean(DataContainer.java:115)
+	at org.brijframework.container.DataContainer.defaultLoader(DataContainer.java:77)
+	at org.brijframework.container.DataContainer.loadContainer(DataContainer.java:67)
+	at org.brijframework.container.DataContainer.getContainer(DataContainer.java:57)
+	at org.brijframework.store.app.TestMain.main(TestMain.java:20)
+
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+
+************************************************************
+		Fri Mar 31 06:52:56 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUser sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+
+************************************************************
+		Fri Mar 31 07:02:51 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUser sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUser
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+
+************************************************************
+		Fri Mar 31 07:04:23 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+Hibernate configration loading ...................................
+
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppMain sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAppMain
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppDetail sucessfully added
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppEdition sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EORole sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EORole
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUser sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUser
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserDetail sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOUserDetail
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG WARN-------------- x ----------------------------x--------------------------
+java.lang.String cannot be cast to java.lang.Double
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAppFeature sucessfully added
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOAddress sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 1 EOAddress
+LOG SUCCESS-------------- x ----------------------------x--------------------------
+SUCCESS : EOUserInfo sucessfully updated
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Allready contain in data base 2 EOUserInfo
+
+************************************************************
+		Fri Mar 31 14:34:13 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+
+
+************************************************************
+		Fri Mar 31 14:35:22 IST 2017
+************************************************************
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default beans loading ..........................................
+
+LOG LOAD-------------- x ----------------------------x--------------------------
+
+ default class loading ..........................................
+

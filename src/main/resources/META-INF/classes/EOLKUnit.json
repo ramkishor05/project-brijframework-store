@@ -1,0 +1,15 @@
+[
+	{
+		"classID": "EOLKUnitGroup",
+		"classPath": "org.brijframework.lookup.EOLKUnitGroup",
+		"typeID": "EOCLASS",
+		"isSingleton": true,
+		"isPrototype": false,
+		"properties": [
+			"typeID",
+			"shortDesc",
+			"longDesc",
+			"friendlyName"
+		]
+	}
+]

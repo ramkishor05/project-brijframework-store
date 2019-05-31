@@ -1,0 +1,80 @@
+<html>
+<head>
+<script src="jszip.min.js"></script>
+
+</head>
+<body>
+
+<input type="file" id='f' onchange="reader()">
+<script>
+   var files=['enterprise_config.xml','fuel_grade.xml','fuel_icrchannel.xml','fuel_icrdevice.xml','fuel_nozzle.xml','fuel_pricing.xml',
+   'fuel_pumpchannel.xml','fuel_pumpdevice.xml','fuel_pumpdevice_template.xml','fuel_site.xml','site_config.xml',
+   'site_config_auditinfo.xml','site_schedule.xml']
+  function reader(){
+   var inputFile = document.getElementById("f");
+   var dataHash={};
+   var zip= new JSZip();
+   zip.folder("/").forEach(function (relativePath, file){
+    console.log("iterating over", relativePath);
+   });
+   zip.loadAsync(inputFile.files[0]).then(function(zipl) { 
+		   zipl.file("enterprise_config.xml").async("string").then(function (data) {
+			  dataHash['enterprise_config'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_grade.xml").async("string").then(function (data) {
+			  dataHash['fuel_grade'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_icrchannel.xml").async("string").then(function (data) {
+			  dataHash['fuel_icrchannel'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_icrdevice.xml").async("string").then(function (data) {
+			  dataHash['fuel_icrdevice'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_nozzle.xml").async("string").then(function (data) {
+			  dataHash['fuel_nozzle'] = toJSONArray(data);
+		   });
+		   zipl.file("enterprise_config.xml").async("string").then(function (data) {
+			  dataHash['enterprise_config'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_grade.xml").async("string").then(function (data) {
+			  dataHash['fuel_grade'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_icrchannel.xml").async("string").then(function (data) {
+			  dataHash['fuel_icrchannel'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_icrdevice.xml").async("string").then(function (data) {
+			  dataHash['fuel_icrdevice'] = toJSONArray(data);
+		   });
+		   zipl.file("fuel_nozzle.xml").async("string").then(function (data) {
+			  dataHash['fuel_nozzle'] = toJSONArray(data);
+		   });
+		   console.log(dataHash)
+     }, function() {
+	    alert("Not a valid zip file")
+	 }
+  ); 
+}
+function toJSONArray(xml) {
+  var parser;
+  var dataArray = [];
+  var resultset,row,feild, xmlDoc, table;
+  parser = new DOMParser();
+  xmlDoc = parser.parseFromString(xml,"text/xml");
+  table = "";
+  resultset= xmlDoc.getElementsByTagName("resultset")
+  for (i = 0; i < resultset.length; i++) { 
+	  row=resultset[i].getElementsByTagName("row");
+	  for (j = 0; j < row.length; j++){
+		var localHash = {};
+		feild= row[j].getElementsByTagName("field")
+		for (k = 0; k < feild.length; k++){
+		 localHash[feild[k].getAttribute("name")]=feild[k].innerHTML;
+		}
+	   dataArray.push(localHash); 
+	}
+}
+return dataArray;
+}
+</script>
+</body>
+</html>

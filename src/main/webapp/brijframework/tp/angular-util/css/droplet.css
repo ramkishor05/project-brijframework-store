@@ -1,0 +1,505 @@
+.dragFilehere {
+	position: relative;
+	border: 1px dashed darkred;
+	width: 27%;
+	height: 77.5%;
+	position: absolute;
+	right: 20px;
+	top: 40px;
+}
+
+.dragFilehere::before {
+	color: #adadad;
+	content: "Drag To Upload Attachment";
+	font-size: 15px;
+	font-weight: 600;
+	left: 0;
+	position: absolute;
+	top: 44px;
+	text-align: center;
+}
+
+section.background {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+section.droplet section.toolbar div.add-files input.droplet-multiple {
+	position: absolute;
+	top: -10px;
+	font-size: 28px;
+	left: -90px;
+	z-index: 1001;
+	opacity: 0.0001;
+	cursor: pointer;
+}
+
+section.droplet {
+	width: 100%;
+	margin: auto;
+	text-align: left;
+	position: relative;
+}
+
+section.droplet h1 a {
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 40px;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, .25);
+}
+
+section.droplet ul.statistics {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+section.droplet ul.statistics li {
+	float: left;
+	overflow: hidden;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+	margin: 10px 5px 10px 0;
+	color: white;
+	font-family: Times New Roman, Times, serif;
+	font-size: 11px;
+	font-style: italic;
+	padding: 1px;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+section.droplet ul.statistics li label {
+	color: rgba(255, 255, 255, .5);
+}
+
+section.droplet droplet {
+	display: inline-block;
+	z-index: 2;
+	position: relative;
+	border-radius: 2px;
+	width: 100%;
+	height: 134px;
+	margin-top: -5px;
+	padding-top: 5px;
+	background-color: rgba(255, 255, 255, .1);
+	transition: box-shadow 0.35s;
+}
+
+section.droplet div.loading {
+	display: block;
+	height: 395px;
+	width: 670px;
+	margin: 1px;
+	margin-top: 6px;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all .35s;
+}
+
+section.droplet div.loading.visible {
+	opacity: 1;
+}
+
+section.droplet droplet.event-dragover {
+	box-shadow: inset 0 0 100px rgba(255, 255, 255, .25), inset 0 0 5px
+		rgba(255, 255, 255, .25);
+}
+
+section.droplet comment:after {
+	content: "Drag Image...";
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	display: inline-block;
+	position: absolute;
+	z-index: -1;
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+	color: rgba(255, 255, 255, .45);
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 400px;
+	text-align: center;
+}
+
+section.droplet droplet.event-dragover comment:after {
+	content: "...And Drop!";
+}
+
+section.droplet droplet ul.files {
+	list-style-type: none;
+	max-height: 140px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 0 5px;
+	transition: all 0.5s ease 0s;
+	width: 100%;
+	margin: 0;
+}
+
+section.droplet.uploading ul.files {
+	opacity: .25;
+	filter: blur(2px);
+	-o-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-webkit-filter: blur(2px);
+	pointer-events: none;
+}
+
+section.droplet ul.files li {
+	width: 101%;
+	height: 40px;
+	float: left;
+	position: relative;
+	margin: 0;
+}
+
+section.droplet ul.files li img.droplet-preview {
+	background-color: #fff;
+	box-shadow: 0 0 2px #7c7c7c;
+	display: block;
+	float: left;
+	height: 34px;
+	margin: 3px 0;
+	width: 100%;
+}
+
+section.droplet ul.files li div.delete {
+	background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 25px;
+	height: 25px;
+	left: 56px;
+	line-height: 25px;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+	top: 8px;
+	transform: scale(0.5);
+	transition: all 0.3s ease 0s;
+	width: 25px;
+	z-index: 101;
+}
+
+section.droplet ul.files li:hover div.delete {
+	opacity: 1;
+	transform: scale(1);
+}
+
+section.droplet ul.files li div.delete:hover {
+	background-color: rgba(0, 0, 0, .45);
+}
+
+section.droplet ul.files li div.size {
+	background-color: rgba(255, 255, 255, .5);
+	position: absolute;
+	bottom: 6px;
+	right: 3px;
+	pointer-events: none;
+	font-size: 8px;
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+section.droplet ul.files li div.file-attachedAt {
+	background-color: rgba(255, 255, 255, .5);
+	position: absolute;
+	bottom: 6px;
+	left: 29px;
+	pointer-events: none;
+	font-size: 8px;
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+section.droplet ul.files li div.file-name {
+	width: 75%;
+	position: absolute;
+	top: 6px;
+	left: 29px;
+	pointer-events: none;
+	font-size: 9px;
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+section.droplet ul.files li div.file-icon {
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 27px;
+	left: 3px;
+	pointer-events: none;
+	position: absolute;
+	top: 1px;
+}
+
+section.droplet section.message {
+	position: absolute;
+	background-color: deepskyblue;
+	z-index: 2001;
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+	transition: all .55s;
+	padding: 0 12px 0 12px;
+	top: -10px;
+	cursor: pointer;
+}
+
+section.droplet section.message.visible {
+	padding: 15px 12px 10px 12px;
+	top: 0;
+}
+
+section.droplet section.message.success {
+	background: linear-gradient(to bottom, rgba(112, 176, 224, 1) 0%,
+		rgba(136, 191, 232, 1) 100%);
+}
+
+section.droplet section.message.error {
+	background: linear-gradient(to bottom, #ce6784 0%, #cc768d 100%);
+}
+
+section.droplet section.toolbar .button {
+	display: inline-block;
+	background-color: transparent;
+	float: left;
+	overflow: hidden;
+	width: 100px;
+	height: 100%;
+	border: 0;
+	cursor: pointer;
+	border-right: 1px solid rgba(0, 0, 0, .1);
+	color: rgba(0, 0, 0, .75);
+	transition: all 0.25s;
+}
+
+section.droplet section.toolbar .button:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+section.droplet section.toolbar div.add-files {
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%
+}
+
+section.droplet section.toolbar div.add-files input.droplet-multiple {
+	position: absolute;
+	top: 0px;
+	font-size: 28px;
+	left: 0;
+	z-index: 1001;
+	opacity: 0.0001;
+	cursor: pointer;
+	width: 100%;
+	height: 25px;
+}
+
+section.droplet section.toolbar div.add-files input[type="file"] {
+	opacity: 0;
+}
+
+input.add-files {
+	padding: 4px 0;
+	width: 100%;
+}
+
+section.droplet section.toolbar div.add-files:hover input.add-files1 {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+section.droplet section.toolbar input.upload-files {
+	transition: background-color 0.25s;
+	outline: none;
+	pointer-events: none;
+	color: rgba(0, 0, 0, .15);
+}
+
+section.droplet section.toolbar input.upload-files.clickable {
+	pointer-events: all;
+	color: rgba(0, 0, 0, .75);
+}
+
+section.droplet section.toolbar comment.progress {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	float: right;
+	overflow: hidden;
+	font-family: Lato, Arial, Tahoma, Helvetica, sans-serif;
+	font-weight: 400;
+	color: rgba(0, 0, 0, .35);
+	font-size: 11px;
+	padding: 0 8px;
+	margin-right: -60px;
+	opacity: 0;
+	transition: all 0.55s;
+}
+
+section.droplet section.toolbar comment.progress.visible {
+	margin-right: 0;
+	opacity: 1;
+}
+
+section.droplet input.droplet-multiple {
+	color: white;
+	margin-top: 5px;
+}
+/********/
+/* .support-request-editor .jqte_editor {
+	width: 70%;
+} */
+
+/********** ticketfileDrag css *********/
+.ticketfileDrag {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.ticketfileDrag .dragFilehere {
+	width: 100%;
+	position: static;
+	height: 40px;
+	float: left;
+	border: 1px solid #1abc9c
+}
+
+.ticketfileDrag section.droplet section.toolbar div.add-files {
+	width: 37px;
+}
+
+.ticketfileDrag input.add-files {
+height:38px;
+	font-size: 15px;
+}
+
+.ticketfileDrag .fa-plus {
+	color: #fff;
+	left: 13px;
+	position: absolute;
+	top: 13px;
+}
+
+.ticketfileDrag section.droplet droplet {
+	width: 90%;
+	height: 38px;
+	margin-top: 0;
+	padding-top: 0;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.ticketfileDrag .dragFilehere::before {
+	top: 9px;
+	left: 335px;
+}
+
+.ticketfileDrag section.droplet droplet ul.files {
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 40px;
+}
+
+.ticketfileDrag section.droplet droplet ul.files li {
+	width: 140px;
+}
+
+.ticketfileDrag section.droplet droplet ul.files li img.droplet-preview
+	{
+	margin: 3px;
+	height: 32px;
+	width: 97%;
+}
+
+.ticketfileDrag section.droplet droplet ul.files li div.file-icon {
+	left: 4px;
+}
+
+.dragFileUpload {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.dragFileUpload .input-group-addon {
+	border-radius: 50%;
+	float: left;
+	height: 30px;
+	margin-right: 26px;
+	padding: 0;
+	width: 30px;
+	border: 0;
+	background-color: #aaaaaa;
+}
+
+.dragFileUpload .input-group-addon i {
+	margin-top: 8px;
+	color: #fff;
+}
+
+.dragFileUpload .close-fa-times {
+	position: absolute;
+	right: 0;
+	top: -5px;
+	cursor: pointer;
+	color: #ccc;
+}
+
+/***** attachFileDetails css ******/
+.attachFileDetails {
+	position: static;
+	width: 100%;
+	height: auto;
+	border: 0;
+}
+
+.attachFileDetails section.droplet ul.files li {
+	margin: 0 1%;
+	width: 19.1%;
+}
+
+.attachFileDetails section.droplet ul.files li img.droplet-preview {
+	width: 99%;
+}
+
+.attachFileDetails section.droplet ul.files li div.delete {
+	font-size: 8px;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 28px;
+	height: 26px;
+	left: 66px;
+	top: 7px;
+	border-radius: 6px;
+}
+
+.attachFileDetails section.droplet ul.files li div.delete i {
+	margin-top: 5px;
+}
+
+.attachFileDetails .files {
+	padding: 0;
+	list-style: none;
+	max-height: 81px;
+}
+
+.attachFileDetails:before {
+	display: none;
+}

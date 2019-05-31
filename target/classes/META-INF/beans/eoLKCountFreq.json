@@ -1,0 +1,47 @@
+[
+	{
+		"objectID": "eoLKCountFreq_Daily",
+		"classID": "EOLKCountFreq",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "DAILY",
+			"name": "Daily",
+			"description": "Count daily time duraction"
+		}
+	},
+	{
+		"objectID": "eoLKCountFreq_Weekly",
+		"classID": "EOLKCountFreq",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "WEEKLY",
+			"name": "Weekly",
+			"description": "Count weekly time duraction"
+		}
+	}
+	,
+	{
+		"objectID": "eoLKCountFreq_Monthly",
+		"classID": "EOLKCountFreq",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "MONTHLY",
+			"name": "Monthly",
+			"description": "Count Monthly time duraction"
+		}
+	},
+	{
+		"objectID": "eoLKCountFreq_Period",
+		"classID": "EOLKCountFreq",
+		"typeID": "EOBEAN",
+		"uniqueKey": "typeID",
+		"properties": {
+			"typeID": "PERIOD",
+			"name": "Period",
+			"description": "Count Period time duraction"
+		}
+	}
+]

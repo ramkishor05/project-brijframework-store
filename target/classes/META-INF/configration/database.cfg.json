@@ -1,0 +1,6 @@
+{
+   "network": "META-INF/database/network.json",
+   "provider": "META-INF/database/provider.json",
+   "database": "META-INF/database/database.json",
+   "schema": "META-INF/database/schema.json"
+}

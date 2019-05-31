@@ -1,0 +1,498 @@
+
+************************************************************
+		Mon Aug 14 12:18:03 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:21:26 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:22:22 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:23:08 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:25:31 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:26:33 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:28:08 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:29:46 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:31:28 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:40:08 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:41:03 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:43:49 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:45:28 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+
+************************************************************
+		Mon Aug 14 12:49:46 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+
+************************************************************
+		Mon Aug 14 12:51:28 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngrCountFreq
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:787)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:764)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:351)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:373)
+	at org.brijframework.db.builder.RelCollection.marge(RelCollection.java:114)
+	at org.brijframework.db.builder.RelCollection.marge(RelCollection.java:65)
+	at org.brijframework.db.builder.RelCollection.marge(RelCollection.java:84)
+	at org.brijframework.db.builder.DataBuilder.setProperty(DataBuilder.java:288)
+	at org.brijframework.db.builder.DataBuilder.initObject(DataBuilder.java:159)
+	at org.brijframework.db.builder.DataBuilder.initObject(DataBuilder.java:138)
+	at org.brijframework.db.builder.DataBuilder.getBuilder(DataBuilder.java:84)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:335)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.EOInvApp.main(EOInvApp.java:191)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngrCountFreq
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 18 more
+
+
+************************************************************
+		Mon Aug 14 13:10:56 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngrCountFreq
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:787)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:764)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:351)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:373)
+	at org.brijframework.db.builder.RelCollection.marge(RelCollection.java:114)
+	at org.brijframework.db.builder.RelCollection.marge(RelCollection.java:65)
+	at org.brijframework.db.builder.RelCollection.marge(RelCollection.java:84)
+	at org.brijframework.db.builder.DataBuilder.setProperty(DataBuilder.java:288)
+	at org.brijframework.db.builder.DataBuilder.initObject(DataBuilder.java:159)
+	at org.brijframework.db.builder.DataBuilder.initObject(DataBuilder.java:138)
+	at org.brijframework.db.builder.DataBuilder.getBuilder(DataBuilder.java:84)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:335)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:17)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngrCountFreq
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 18 more
+
+
+************************************************************
+		Mon Aug 14 13:11:31 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:787)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:764)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:17)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 13:12:49 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:787)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:764)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 17:21:57 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:786)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:763)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 17:22:30 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:786)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:763)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 17:25:00 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:786)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:763)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 17:27:19 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:786)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:763)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 17:45:04 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:786)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:763)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 17:47:32 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Mon Aug 14 17:50:45 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Mon Aug 14 17:51:10 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID

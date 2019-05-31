@@ -1,0 +1,69 @@
+<div ng-if="isLoading">
+  	<!-- <div class="content">
+		<div class="accounts"
+			style="padding-left: 400px; padding-right: 400px">
+			<div class="box">
+				<div class="panel mb-none" ng-if="uiMetaData.id=='UserController_login'">
+					<div class="panel-content bg-scale-0">
+						<form name="form"
+							ng-submit="doLogin(uiMetaData.id,modalMap.objectMap)">
+							<div class="form-group mt-md"
+								ng-repeat="field in uiMetaData.fieldArray">
+								<ui-field 
+									ng-model="modalMap.objectMap[field.name]" meta-data-map="field"
+									object-data-map="modalMap.objectMap" id="{{field.id}}"
+									display-key="{{field.displayKey}}"></ui-field>
+							</div>
+							<div class="form-group"
+								ng-repeat="action in uiMetaData.actionArray">
+								<a ng-if="action.typeID=='SUBMIT'"
+									ng-click="doLogin(action.id,modalMap.objectMap)"
+									class="btn btn-primary btn-block">{{action.label}}
+								</a>
+							</div>
+							<div class="row">
+								<div class="col-md-6"></div>
+								<div class="col-md-6">
+									<a href="#" ng-click="pageRedirect(uiMetaData.id)">Sign up</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="panel mb-none">
+					<div class="panel-content bg-scale-0" ng-if="uiMetaData.id=='UserController_signup'">
+						<form name="form"
+							ng-submit="doSignup(uiMetaData.id,modalMap.objectMap)">
+							<div class="form-group mt-md"
+								ng-repeat="field in uiMetaData.fieldArray">
+								<ui-field 
+									ng-model="modalMap.objectMap[field.name]" meta-data-map="field"
+									object-data-map="modalMap.objectMap" id="{{field.id}}"
+									display-key="{{field.displayKey}}"></ui-field>
+							</div>
+							<div class="form-group"
+								ng-repeat="action in uiMetaData.actionArray">
+								<a ng-if="action.typeID=='SUBMIT'"
+									ng-click="doSignup(action.id,modalMap.objectMap)"
+									class="btn btn-primary btn-block">{{action.label}}
+								</a>
+							</div>
+							<div class="row">
+								<div class="col-md-6"></div>
+								<div class="col-md-6">
+									<a href="#" ng-click="pageRedirect(uiMetaData.id)">Login</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div> -->
+</div>
+<login-page  do-login="doLogin(objectMap)" do-signup="doSignup(objectMap)" on-key-up="isUserExist(objectMap)"></login-page>
+  
+ 
+ 

@@ -1,0 +1,18 @@
+[
+	{
+		"classID": "EOAppRole",
+		"classPath": "org.brijframework.hr.EOAppRole",
+		"typeID": "EOCLASS",
+		"isSingleton": true,
+		"isPrototype": false,
+		"properties": [
+			"appRoleID",
+			"appRoleName",
+			"appMenuID"
+		],
+		"relationship": [
+			"eoRole",
+			"eoAppMain"
+		]
+	}
+]

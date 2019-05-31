@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+	<script type="text/javascript" src="jszip.min.js"></script>
+</HEAD>
+
+<BODY>
+
+<div id="container">
+<div id="content">
+
+<br/>
+<center>
+Click the button to generate a ZIP file
+<br/>
+<input id="button" type="button" onclick="create_zip()" value="Create Zip"></input>
+</center>
+
+</BODY>
+<SCRIPT>
+
+function create_zip() {
+	var zip = new JSZip();
+	zip.file("hello1.txt", "Hello First World\n");
+	zip.file("hello2.txt", "Hello Second World\n");
+	zip.generateAsync({type:"base64"}).then(function (base64) {
+    //location.href="data:application/zip;base64," + base64;
+	download("data.zip",base64)
+    });
+	
+	
+}
+function linkDownload(a, filename, content) {
+        contentType =  'data:application/zip;base64,';
+        uriContent = contentType + encodeURIComponent(content);
+        a.setAttribute('href', uriContent);
+        a.setAttribute('download', filename);
+}
+function download(filename, content) {
+        var a = document.createElement('a');
+        linkDownload(a, filename, content);
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+}
+</SCRIPT>
+</HTML>

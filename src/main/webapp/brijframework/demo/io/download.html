@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Download Text File DataURL Demo</title>
+		<style>
+			body{ font: menu; }
+		</style>
+		<script src='js/download.js'></script>
+		
+	</head>
+	<body>
+		<h1>Download Text File DataURL Demo</h1>
+		<script>
+			/* download("http://data",new Blob(["hello world".bold()]), "dlHtmlBlob.xml", "Application/xml"); */
+
+          function WriteFile()
+			{
+			
+			    var fh = fopen("c:\\MyFile.txt", 3); // Open the file for writing
+			
+			    if(fh!=-1) // If the file has been successfully opened
+			    {
+			        var str = "Some text goes here...";
+			        fwrite(fh, str); // Write the string to a file
+			        fclose(fh); // Close the file
+			    }
+			
+			}
+			
+			WriteFile();
+		</script>
+		
+	</body>
+
+</html>

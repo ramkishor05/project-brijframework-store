@@ -1,0 +1,29 @@
+<div class="col-sm-12 col-lg-12" ng-init="loading()">
+	<div class="row" ng-if="menu.menuItemArray!=null">
+		<div class="col-md-4" ng-repeat="menuItem in menu.menuItemArray">
+			<div class="panel b-primary bt-sm">
+				<div class="panel-content panel-body"
+					style="height: 150px; max-height: 250px; min-hieght: 150px">
+					<a  ng-click="changeView(menuItem)">
+						<div class="panel-content">
+							<div class="row">
+								<div class="col-md-4">
+									<span style="" class="{{menuItem['customClass']['bigIcon']}}"></span>
+									<div class="font-size:6" style=""
+										class="{{menuItem['customClass']['name']}}">{{menuItem.name}}</div>
+								</div>
+								<div class="col-md-8">
+									<div class="font-size:6" style=""
+										class="{{menuItem['customClass']['label']}}">{{menuItem.label}}</div>
+									<div class="font-size:3" style=""
+										class="{{menuItem['customClass']['discription']}}">{{menuItem.discription}}</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 

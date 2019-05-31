@@ -1,0 +1,18 @@
+[
+	{
+		"id": "EOProductDetails_001",
+		"rowFieldIDs": [],
+		"classID": "",
+		"mdlFieldIDs": [
+			"manufacturer",
+			"MRP",
+			"expDate",
+			"mfrDate",
+			"unitPrice",
+			"quantityPerUnit",
+			"unitsInStock",
+			"unitsInOrder",
+			"eoProduct"
+		]
+	}
+]	

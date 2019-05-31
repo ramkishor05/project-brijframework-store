@@ -1,0 +1,14 @@
+[
+	{
+		"classID": "EOLKCountFreq",
+		"classPath": "org.brijframework.lookup.EOLKCountFreq",
+		"typeID": "EOCLASS",
+		"isSingleton": true,
+		"isPrototype": false,
+		"properties": [
+			"typeID",
+			"name",
+			"description"
+		]
+	}
+]

@@ -1,0 +1,56 @@
+[
+	{
+		"objectID": "eoReportAppMain",
+		"classID": "EOAppMain",
+		"typeID": "EOBEAN",
+		"uniqueKey": "appID",
+		"properties": {
+			"appID": "REPORTING_APP",
+			"appName": "Report App",
+			"appLogo": "assert/app/logo/reporting_app.png",
+			"appURL": "http://localhost:8084/org.brijframework-store/#/report"
+		},
+		"relationship": {
+			"appDetail": "eoReportAppDetail",
+			"appEdition": "eoReportAppEdition",
+			"appFeature": "eoReportAppFeature"
+		}
+	},
+	{
+		"objectID": "eoReportAppDetail",
+		"classID": "EOAppDetail",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"displayOrder": "1.2",
+			"internalHost": "localhost",
+			"externalHost": "localhost",
+			"internalPort": "8090",
+			"externalPort": "8090"
+		}
+	},
+	{
+		"objectID": "eoReportAppEdition",
+		"classID": "EOAppEdition",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"displayOrder": "1.2",
+			"description": "Report for employee performance, sales performance, and othor ",
+			"monthlyRate": "12.50",
+			"startPayDay": "30",
+			"isFreeEdition": true
+		}
+	},
+	{
+		"objectID": "eoReportAppFeature",
+		"classID": "EOAppFeature",
+		"typeID": "EOBEAN",
+		"uniqueKey": "displayOrder",
+		"properties": {
+			"description": "Report can be store employee , sales man , and othor person dateils",
+			"displayOrder": "1.2",
+			"viewDetail": "Report can be store employee , sales man , and othor person dateils and view contact informartion"
+		}
+	}
+]

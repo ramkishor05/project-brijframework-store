@@ -1,0 +1,7 @@
+[
+	{
+	"id":"admin_app_role",
+	"menuID":"admin_menu",
+	"role":"admin"
+	}
+]

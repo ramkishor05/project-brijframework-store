@@ -1,0 +1,20 @@
+[
+	{
+		"id":"postgres_store",
+		"schemaPackage": "org",
+		"catalogName": "store",
+		"schemaUser": "postgres",
+		"schemaPassword": "admin",
+		"isEnabled": true,
+		"isBeanLoad":true
+	},
+	{
+		"id":"mysql_store",
+		"schemaPackage": "org",
+		"catalogName": "store",
+		"schemaUser": "root",
+		"schemaPassword": "root",
+		"isEnabled": true,
+		"isBeanLoad":true
+	}
+]  

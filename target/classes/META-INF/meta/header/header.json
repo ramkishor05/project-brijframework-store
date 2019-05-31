@@ -1,0 +1,17 @@
+[ {
+    "application":{
+        "index":0,
+		"appName":"brijframework",
+		"logo":"/logo/logo.png",
+		"position":"left"
+    },
+    "notification":{
+     	"index":1,
+     	"isPanel":true,
+     	"isMultiple":true,
+     	"notificationIdArray":[
+     	  "message_notification"
+     	]
+    }
+  }
+]

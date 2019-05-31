@@ -1,0 +1,7 @@
+{
+    "requestMap":{
+           "requestID": "hello_setEmployee"
+      },"parameterMap":{
+           "uniqueID":1,"unitPrice":23.8,"unitsInStock":45,"unitsInOrder":45,"productID":"6","description":"SP"
+     }
+}

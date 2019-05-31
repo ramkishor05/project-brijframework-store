@@ -1,0 +1,46 @@
+<div class="table-responsive">
+	<table id="basic-table" class="table table-bordered" cellspacing="2" 
+		width="100%">
+		<thead>
+			<tr ng-if="metaData.rowFieldArray.length>0">
+				<th ng-click="sorting(label.name)"
+					ng-repeat="label in metaData.rowFieldArray"><label
+					class="{{getSortClass(label.name)}}"
+					ng-init="getSortClass(label.name)"><b>{{label.label}}</b></label></th>
+				<th><label class="pull-right fa fa-eyedropper"><b>Action</b></label>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-if="dataArray.length>0"
+				ng-repeat="rowObj in dataArray | pagination: currentPage * pageSize | limitTo: pageSize | filter:filterData">
+				<td ng-repeat="col in metaData.rowFieldArray">{{rowObj}}{{rowObj[col.name]}}
+				</td>
+				<td>
+					<div class="pull-right">
+						<div class="form-group">
+							<button class="btn btn-sm btn-o btn-warning"
+								ng-click="updateModal(rowObj)">
+								<span class="glyphicon glyphicon-edit"></span>
+							</button>
+							<button class="btn btn-sm btn-o btn-danger"
+								ng-click="deleteModal(rowObj)">
+								<span class="glyphicon glyphicon-trash"></span>
+							</button>
+							<button class="btn btn-sm btn-o btn-success"
+								ng-click="viewModal()">
+								<span class="glyphicon glyphicon-tasks"></span>
+							</button>
+							<!--  <button class="btn btn-sm btn-o btn-danger"><span class="glyphicon glyphicon-folder-open"></span> </button> -->
+							<!--  <button class="btn btn-sm btn-o btn-danger"><span class="glyphicon glyphicon-warning-sign"></span> </button>
+	   								<button class="btn btn-sm btn-o btn-danger"><span class="glyphicon glyphicon-exclamation-sign"></span> </button>
+	 							    <button class="btn btn-sm btn-o btn-danger"><span class="glyphicon glyphicon-info-sign"></span> </button> -->
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<ui-pagination row-array="dataArray" pageSize="10" current-page="0"></ui-pagination>
+	<div ng-if="dataArray.length==0"> No record founds</div>
+</div>

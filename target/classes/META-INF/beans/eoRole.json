@@ -1,0 +1,75 @@
+[
+  {
+    "objectID": "eoAdminRole",
+    "classID": "EORole",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "roleID",
+    "properties": {
+      "roleName": "ADMIN",
+      "roleID": "ADMIN"
+      }
+  },
+  {
+    "objectID": "eoOwnerRole",
+    "classID": "EORole",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "roleID",
+    "properties": {
+      "roleName": "Owner",
+      "roleID": "OWNER"
+    }
+  }
+  ,
+  {
+    "objectID": "eoManagerRole",
+    "classID": "EORole",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "roleID",
+    "properties": {
+      "roleName": "Manager",
+      "roleID": "MANAGER"
+    }
+  } ,
+  {
+    "objectID": "eoSuperviserRole",
+    "classID": "EORole",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "roleID",
+    "properties": {
+      "roleName": "Superviser",
+      "roleID": "SUPERVISER"
+    }
+  },
+  {
+    "objectID": "eoCrowRole",
+    "classID": "EORole",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "roleID",
+    "properties": {
+      "roleName": "Crow",
+      "roleID": "CROW"
+    }
+  },
+  {
+    "objectID": "eoUserRole",
+    "classID": "EORole",
+    "typeID": "EOBEAN",
+    "isPersist": true,
+    "isLoad": true,
+    "uniqueKey": "roleID",
+    "properties": {
+      "roleName": "User",
+      "roleID": "USER"
+    }
+  }
+]

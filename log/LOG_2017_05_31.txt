@@ -1,0 +1,1892 @@
+
+************************************************************
+		Wed May 31 08:00:31 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Please initlize bean
+
+************************************************************
+		Wed May 31 08:01:34 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Please initlize bean
+
+************************************************************
+		Wed May 31 08:02:23 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Please initlize bean
+
+************************************************************
+		Wed May 31 08:03:01 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Please initlize bean
+
+************************************************************
+		Wed May 31 08:03:59 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+
+************************************************************
+		Wed May 31 08:05:14 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.PropertyAccessException: could not get a field value by reflection getter of org.brijframework.app.EOAppMain.uniqueID
+	at org.hibernate.property.DirectPropertyAccessor$DirectGetter.get(DirectPropertyAccessor.java:60)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.getIdentifier(AbstractEntityTuplizer.java:346)
+	at org.hibernate.persister.entity.AbstractEntityPersister.getIdentifier(AbstractEntityPersister.java:4746)
+	at org.hibernate.persister.entity.AbstractEntityPersister.isTransient(AbstractEntityPersister.java:4465)
+	at org.hibernate.engine.internal.ForeignKeys.isTransient(ForeignKeys.java:243)
+	at org.hibernate.engine.internal.ForeignKeys.getEntityIdentifierIfNotUnsaved(ForeignKeys.java:293)
+	at org.hibernate.type.EntityType.getIdentifier(EntityType.java:537)
+	at org.hibernate.type.ManyToOneType.nullSafeSet(ManyToOneType.java:174)
+	at org.hibernate.param.NamedParameterSpecification.bind(NamedParameterSpecification.java:67)
+	at org.hibernate.loader.hql.QueryLoader.bindParameterValues(QueryLoader.java:616)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1901)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.brijframework.db.hibernate.HBManager.findCollection(HBManager.java:731)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:753)
+	at org.brijframework.core.processor.DataProcessor.findObject(DataProcessor.java:259)
+	at org.brijframework.core.processor.DataProcessor.findObject(DataProcessor.java:250)
+	at org.brijframework.hr.EOCustRole.menuForUser(EOCustRole.java:53)
+	at org.brijframework.hr.EOCustRole.main(EOCustRole.java:60)
+Caused by: java.lang.IllegalArgumentException: Can not set long field org.brijframework.beans.DataBean.uniqueID to java.lang.Long
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:58)
+	at sun.reflect.UnsafeLongFieldAccessorImpl.getLong(UnsafeLongFieldAccessorImpl.java:60)
+	at sun.reflect.UnsafeLongFieldAccessorImpl.get(UnsafeLongFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:387)
+	at org.hibernate.property.DirectPropertyAccessor$DirectGetter.get(DirectPropertyAccessor.java:57)
+	... 29 more
+
+
+************************************************************
+		Wed May 31 08:08:04 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.PropertyAccessException: could not get a field value by reflection getter of org.brijframework.app.EOAppMain.uniqueID
+	at org.hibernate.property.DirectPropertyAccessor$DirectGetter.get(DirectPropertyAccessor.java:60)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.getIdentifier(AbstractEntityTuplizer.java:346)
+	at org.hibernate.persister.entity.AbstractEntityPersister.getIdentifier(AbstractEntityPersister.java:4746)
+	at org.hibernate.persister.entity.AbstractEntityPersister.isTransient(AbstractEntityPersister.java:4465)
+	at org.hibernate.engine.internal.ForeignKeys.isTransient(ForeignKeys.java:243)
+	at org.hibernate.engine.internal.ForeignKeys.getEntityIdentifierIfNotUnsaved(ForeignKeys.java:293)
+	at org.hibernate.type.EntityType.getIdentifier(EntityType.java:537)
+	at org.hibernate.type.ManyToOneType.nullSafeSet(ManyToOneType.java:174)
+	at org.hibernate.param.NamedParameterSpecification.bind(NamedParameterSpecification.java:67)
+	at org.hibernate.loader.hql.QueryLoader.bindParameterValues(QueryLoader.java:616)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1901)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.brijframework.db.hibernate.HBManager.findCollection(HBManager.java:731)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:753)
+	at org.brijframework.core.processor.DataProcessor.findObject(DataProcessor.java:259)
+	at org.brijframework.core.processor.DataProcessor.findObject(DataProcessor.java:250)
+	at org.brijframework.hr.EOCustRole.menuForUser(EOCustRole.java:53)
+	at org.brijframework.hr.EOCustRole.main(EOCustRole.java:60)
+Caused by: java.lang.IllegalArgumentException: Can not set long field org.brijframework.beans.DataBean.uniqueID to java.lang.Long
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:58)
+	at sun.reflect.UnsafeLongFieldAccessorImpl.getLong(UnsafeLongFieldAccessorImpl.java:60)
+	at sun.reflect.UnsafeLongFieldAccessorImpl.get(UnsafeLongFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:387)
+	at org.hibernate.property.DirectPropertyAccessor$DirectGetter.get(DirectPropertyAccessor.java:57)
+	... 29 more
+
+
+************************************************************
+		Wed May 31 08:08:53 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.hibernate.PropertyAccessException: could not get a field value by reflection getter of org.brijframework.app.EOAppMain.uniqueID
+	at org.hibernate.property.DirectPropertyAccessor$DirectGetter.get(DirectPropertyAccessor.java:60)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.getIdentifier(AbstractEntityTuplizer.java:346)
+	at org.hibernate.persister.entity.AbstractEntityPersister.getIdentifier(AbstractEntityPersister.java:4746)
+	at org.hibernate.persister.entity.AbstractEntityPersister.isTransient(AbstractEntityPersister.java:4465)
+	at org.hibernate.engine.internal.ForeignKeys.isTransient(ForeignKeys.java:243)
+	at org.hibernate.engine.internal.ForeignKeys.getEntityIdentifierIfNotUnsaved(ForeignKeys.java:293)
+	at org.hibernate.type.EntityType.getIdentifier(EntityType.java:537)
+	at org.hibernate.type.ManyToOneType.nullSafeSet(ManyToOneType.java:174)
+	at org.hibernate.param.NamedParameterSpecification.bind(NamedParameterSpecification.java:67)
+	at org.hibernate.loader.hql.QueryLoader.bindParameterValues(QueryLoader.java:616)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1901)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.brijframework.db.hibernate.HBManager.findCollection(HBManager.java:731)
+	at org.brijframework.db.hibernate.HBManager.findObject(HBManager.java:753)
+	at org.brijframework.core.processor.DataProcessor.findObject(DataProcessor.java:259)
+	at org.brijframework.core.processor.DataProcessor.findObject(DataProcessor.java:250)
+	at org.brijframework.hr.EOCustRole.menuForUser(EOCustRole.java:53)
+	at org.brijframework.hr.EOCustRole.main(EOCustRole.java:63)
+Caused by: java.lang.IllegalArgumentException: Can not set long field org.brijframework.beans.DataBean.uniqueID to java.lang.Long
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:58)
+	at sun.reflect.UnsafeLongFieldAccessorImpl.getLong(UnsafeLongFieldAccessorImpl.java:60)
+	at sun.reflect.UnsafeLongFieldAccessorImpl.get(UnsafeLongFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:387)
+	at org.hibernate.property.DirectPropertyAccessor$DirectGetter.get(DirectPropertyAccessor.java:57)
+	... 29 more
+
+
+************************************************************
+		Wed May 31 08:11:11 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:12:52 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:13:34 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:14:29 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:17:44 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:20:09 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:21:21 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:22:40 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain
+
+************************************************************
+		Wed May 31 08:26:21 PDT 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :classPath does not contain
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOAppRole O  WHERE  O.eoRole = :eoRole AND  O.eoAppMain = :eoAppMain

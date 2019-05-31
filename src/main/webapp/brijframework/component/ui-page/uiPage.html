@@ -1,0 +1,40 @@
+<div class="panel">
+	<div class="panel-header">
+		<h3 class="panel-title">{{metaData.headerlabel}}</h3>
+		<div class="panel-actions">
+			<ul>
+				<li class="action" ng-click="addModal()"><span
+					class="fa fa-plus-square-o"></span></li>
+				<li class="action"><span class="fa fa-bars action"
+					aria-hidden="true"></span></li>
+				<li class="action remove-panel"><span
+					class="fa fa-times action" aria-hidden="true"></span></li>
+			</ul>
+		</div>
+		<br> <br>
+	</div>
+	<div class="panel-content" style="padding: 0px; margin: 0px">
+	</div>
+</div>
+<div class="panel-footer">
+	<ul class="pagination">
+	   <ui-pagination row-array="dataArray" pageSize="10" current-page="0"></ui-pagination>
+	</ul>
+</div>
+</div>
+
+{
+  header:{
+     rowArray:[
+         {
+             
+             columnArray:[
+                 {
+                 
+                 }
+             ]
+         }
+     ]
+  } 
+
+}
